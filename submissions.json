@@ -3259,6 +3259,22 @@
     ],
     "timestamp": "Sep/19/2021 13:10"
   },
+  "CF37488493": {
+    "contest_id": 964,
+    "language": "GNU C++17",
+    "path": "codeforces\\964\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Messages",
+    "problem_url": "https://codeforces.com/contest/964/problem/B",
+    "submission_id": "CF37488493",
+    "submission_url": "https://codeforces.com/contest/964/submission/37488493",
+    "tags": [
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Apr/20/2018 19:19"
+  },
   "CF38354280": {
     "contest_id": 978,
     "language": "GNU C++17",
