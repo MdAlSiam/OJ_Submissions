@@ -3179,6 +3179,23 @@
     ],
     "timestamp": "Sep/18/2021 00:43"
   },
+  "CF38390397": {
+    "contest_id": 982,
+    "language": "GNU C++17",
+    "path": "codeforces\\982\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Row",
+    "problem_url": "https://codeforces.com/contest/982/problem/A",
+    "submission_id": "CF38390397",
+    "submission_url": "https://codeforces.com/contest/982/submission/38390397",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "*1200"
+    ],
+    "timestamp": "May/18/2018 11:50"
+  },
   "CF38425111": {
     "contest_id": 550,
     "language": "GNU C++17",
