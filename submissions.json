@@ -3179,6 +3179,23 @@
     ],
     "timestamp": "Sep/18/2021 00:43"
   },
+  "CF38852321": {
+    "contest_id": 988,
+    "language": "GNU C++17",
+    "path": "codeforces\\988\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Substrings Sort",
+    "problem_url": "https://codeforces.com/contest/988/problem/B",
+    "submission_id": "CF38852321",
+    "submission_url": "https://codeforces.com/contest/988/submission/38852321",
+    "tags": [
+      "sortings",
+      "strings",
+      "*1100"
+    ],
+    "timestamp": "Jun/01/2018 21:55"
+  },
   "CF38875423": {
     "contest_id": 659,
     "language": "GNU C++17",
