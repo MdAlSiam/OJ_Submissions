@@ -3179,6 +3179,23 @@
     ],
     "timestamp": "Sep/18/2021 00:43"
   },
+  "CF38875423": {
+    "contest_id": 659,
+    "language": "GNU C++17",
+    "path": "codeforces\\659\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Qualifying Contest",
+    "problem_url": "https://codeforces.com/contest/659/problem/B",
+    "submission_id": "CF38875423",
+    "submission_url": "https://codeforces.com/contest/659/submission/38875423",
+    "tags": [
+      "constructive algorithms",
+      "sortings",
+      "*1300"
+    ],
+    "timestamp": "Jun/02/2018 12:12"
+  },
   "CF39611294": {
     "contest_id": 996,
     "language": "GNU C++17",
