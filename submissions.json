@@ -4105,6 +4105,23 @@
     ],
     "timestamp": "Jul/13/2018 20:49"
   },
+  "CF40321706": {
+    "contest_id": 1008,
+    "language": "GNU C++17",
+    "path": "codeforces\\1008\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Reorder the Array",
+    "problem_url": "https://codeforces.com/contest/1008/problem/C",
+    "submission_id": "CF40321706",
+    "submission_url": "https://codeforces.com/contest/1008/submission/40321706",
+    "tags": [
+      "combinatorics",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Jul/14/2018 20:33"
+  },
   "CF40324508": {
     "contest_id": 1009,
     "language": "GNU C++17",
