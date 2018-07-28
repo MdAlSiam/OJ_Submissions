@@ -3179,6 +3179,24 @@
     ],
     "timestamp": "Sep/18/2021 00:43"
   },
+  "CF40868377": {
+    "contest_id": 1011,
+    "language": "GNU C++17",
+    "path": "codeforces\\1011\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Fly",
+    "problem_url": "https://codeforces.com/contest/1011/problem/C",
+    "submission_id": "CF40868377",
+    "submission_url": "https://codeforces.com/contest/1011/submission/40868377",
+    "tags": [
+      "binary search",
+      "greedy",
+      "math",
+      "*1500"
+    ],
+    "timestamp": "Jul/28/2018 11:04"
+  },
   "CF41345142": {
     "contest_id": 1017,
     "language": "GNU C++17",
