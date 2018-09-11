@@ -7,7 +7,7 @@ using namespace std;
 int main(){
 	ll n;
 	while(scanf("%lld", &n) == 1){
-		ll x, oddsum = 0, evensum = 0, minodd = INT_MAX, oddkount = 0;
+		ll x, oddsum = 0, evensum = 0, minodd = INT_MAX, mineven = INT_MAX, oddkount = 0, evenkount = 0;
 		for(ll i = 0; i < n; i++){
 			scanf("%lld", &x);
 			if(x & 1){
@@ -16,9 +16,9 @@ int main(){
 				if(x < minodd) minodd = x;
 			}
 			else{
-				//evenkount++;
+				evenkount++;
 				evensum += x;
-				//if(x < mineven) mineven = x;
+				if(x < mineven) mineven = x;
 			}
 		}
 		ll ans = oddsum + evensum;
