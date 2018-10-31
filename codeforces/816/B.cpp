@@ -26,7 +26,7 @@ int main(){
         amarmap[i] += amarmap[i-1];
     }
 
-    for(int i = mini; i <= maxi+1; i++){
+    for(int i = mini; i < 200005; i++){
         if(amarmap[i] >= k) cumsum[i] = 1+cumsum[i-1];
         else cumsum[i] = cumsum[i-1];
     }
@@ -35,8 +35,6 @@ int main(){
         int l, r;
         int kount = 0;
         scanf("%d %d", &l, &r);
-        if(l > maxi+1) cumsum[l-1] = cumsum[maxi];
-        if(r > maxi+1) cumsum[r] = cumsum[maxi];
         kount = cumsum[r] - cumsum[l-1];
         printf("%d\n", kount);
     }
