@@ -22,12 +22,12 @@ int main(){
         bigger = ans[j+1];
         total = given[k];
 
-        /*if(total <= bigger){
+        if(total <= bigger){
             first = smaller;
             second = total - smaller;
         }
 
-        else{*/
+        else{
             first = total - bigger;
             second = bigger;
             long long int need;
@@ -36,7 +36,7 @@ int main(){
                 first += need;
                 second -= need;
             }
-        //}
+        }
 
         ans[i] = first;
         ans[j] = second;
