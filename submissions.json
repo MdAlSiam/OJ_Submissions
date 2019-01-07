@@ -5363,6 +5363,23 @@
     ],
     "timestamp": "Jan/04/2019 21:34"
   },
+  "CF48055530": {
+    "contest_id": 1097,
+    "language": "GNU C++17",
+    "path": "codeforces\\1097\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Yuhao and a Parenthesis",
+    "problem_url": "https://codeforces.com/contest/1097/problem/C",
+    "submission_id": "CF48055530",
+    "submission_url": "https://codeforces.com/contest/1097/submission/48055530",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*1400"
+    ],
+    "timestamp": "Jan/07/2019 18:05"
+  },
   "CF48129880": {
     "contest_id": 1102,
     "language": "GNU C++17",
