@@ -18,8 +18,8 @@ int main(){
         int t;
         scanf("%d", &t);
         elementkount[t]++;
-        //if(elementkount[t] > k)
-            //hobena = true;
+        if(elementkount[t] > k)
+            hobena = true;
         v[t].push_back(i);
     }
 
@@ -27,7 +27,7 @@ int main(){
 
     for(int i = 0; i < 5100; i++){
         for(int j = 0; j < v[i].size(); j++){
-            if(v[i].size() > k){hobena = true; break;}
+            if(v[j].size() > k){hobena = true; break;}
             ansara[v[i][j]] = (kk % k) + 1;
             kk++;
         }
