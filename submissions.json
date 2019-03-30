@@ -5397,6 +5397,22 @@
     ],
     "timestamp": "Jan/23/2019 22:08"
   },
+  "CF52033050": {
+    "contest_id": 1143,
+    "language": "GNU C++17",
+    "path": "codeforces\\1143\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "The Doors",
+    "problem_url": "https://codeforces.com/contest/1143/problem/A",
+    "submission_id": "CF52033050",
+    "submission_url": "https://codeforces.com/contest/1143/submission/52033050",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Mar/30/2019 23:19"
+  },
   "CF52141170": {
     "contest_id": 1143,
     "language": "GNU C++17",
