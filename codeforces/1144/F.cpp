@@ -53,8 +53,8 @@ int main(){
 
     for(int i = 1; i <= m; i++){
         if(color[u[i]] == 0 && color[v[i]] == 1)
-            printf("0");
-        else printf("1");
+            printf("1");
+        else printf("0");
         if(i == m) printf("\n");
     }
 }
