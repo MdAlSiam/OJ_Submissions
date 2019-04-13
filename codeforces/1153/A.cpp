@@ -6,27 +6,28 @@ using namespace std;
 int main(){
     ll n, t;
     scanf("%lld %lld", &n, &t);
-    ll f[n+10], d[n+10];
+        ll ans = LONG_LONG_MAX;
+        ll in = -1;
 
-    for(ll i = 1; i <= n; i++){
-        scanf("%lld %lld", &f[i], &d[i]);
-    }
-
-    ll ans = LONG_LONG_MAX;
-    ll in = -1;
-
-    for(ll i = 1; i <= n; i++){
-        
-
-        for(ll j = f[i];; j+=d[i]){
-            if(j < ans && j >= t){
-                ans = j;
+        for(ll i = 1; i <= n; i++){
+            ll first, duration;
+            scanf("%lld %lld", &first, &duration);
+            //if(first < t) continue;
+            if(first == t){
+                ans = first;
                 in = i;
                 break;
             }
-            if(j > ans) break;
+            for(ll xx = first; ; xx += duration){
+                if(xx < ans && xx >= t){
+                    ans = xx;
+                    in = i;
+                    break;
+                }
+                if(xx >= ans)
+                    break;
+            }
         }
-    }
-
-    printf("%lld\n", in);
+        printf("%lld\n", in);
+    //}
 }
