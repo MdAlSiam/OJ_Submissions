@@ -3179,6 +3179,23 @@
     ],
     "timestamp": "Sep/18/2021 00:43"
   },
+  "CF53072609": {
+    "contest_id": 1146,
+    "language": "GNU C++17",
+    "path": "codeforces\\1146\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Hate \"A\"",
+    "problem_url": "https://codeforces.com/contest/1146/problem/B",
+    "submission_id": "CF53072609",
+    "submission_url": "https://codeforces.com/contest/1146/submission/53072609",
+    "tags": [
+      "implementation",
+      "strings",
+      "*1100"
+    ],
+    "timestamp": "Apr/21/2019 02:04"
+  },
   "CF53231625": {
     "contest_id": 1152,
     "language": "GNU C++17",
