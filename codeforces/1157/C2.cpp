@@ -32,9 +32,9 @@ int main(){
             }
 
 
-            for(int ii = 0; ii < len1 && len1 >= len2; ii++)
+            for(int ii = 0; ii < len1 && len1 > len2; ii++)
                 ans[index++] =  'L';
-            for(int ii = 0; ii < len2 && len1 < len2; ii++)
+            for(int ii = 0; ii < len2 && len1 <= len2; ii++)
                 ans[index++] =  'R';
 
             break;
