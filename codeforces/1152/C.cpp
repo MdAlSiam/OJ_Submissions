@@ -21,7 +21,7 @@ int main(){
     ll ans = (1LL<<62);
     ll vl = 0;
 
-    //sort(v.begin(),v.end());
+    sort(v.begin(),v.end());
 
     for(ll i = 0; i < v.size(); i++){
         ll nr = v[i];
