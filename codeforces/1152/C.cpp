@@ -21,7 +21,7 @@ int main(){
     ll ans = (1LL<<62);
     ll vl = 0;
 
-    sort(v.begin(),v.end());
+    //sort(v.begin(),v.end());
 
     for(ll i = 0; i < v.size(); i++){
         ll nr = v[i];
@@ -36,13 +36,12 @@ int main(){
             }
         }
         else{
-            ll k = nr - a % nr;
             ll pans =
-             ((a + k) * (b + k))
-            / __gcd((a + k) , (b + k));
+             ((a + nr - a % nr) * (b + nr - b % nr))
+            / __gcd((a + nr - a % nr) , (b + nr - b % nr));
             if(pans < ans){
                 ans = pans;
-                vl = k;
+                vl = nr - a%nr;
             }
         }
     }
