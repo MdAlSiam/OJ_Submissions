@@ -3179,6 +3179,23 @@
     ],
     "timestamp": "Sep/18/2021 00:43"
   },
+  "CF53798104": {
+    "contest_id": 1162,
+    "language": "GNU C++17",
+    "path": "codeforces\\1162\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Double Matrix",
+    "problem_url": "https://codeforces.com/contest/1162/problem/B",
+    "submission_id": "CF53798104",
+    "submission_url": "https://codeforces.com/contest/1162/submission/53798104",
+    "tags": [
+      "brute force",
+      "greedy",
+      "*1400"
+    ],
+    "timestamp": "May/05/2019 22:29"
+  },
   "CF53809784": {
     "contest_id": 1162,
     "language": "GNU C++17",
