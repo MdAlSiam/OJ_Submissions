@@ -5,7 +5,7 @@ int main(){
     int n, m, r;
     scanf("%d %d %d", &n, &m, &r);
 
-    //int buy[n+4], sell[n+4];
+    int buy[n+4], sell[n+4];
 
     int minbuy = INT_MAX, maxsell = -1, t;
 
