@@ -3,29 +3,25 @@ using namespace std;
 
 #define ll long long int
 
-int main(){
+#define maxnum 1000006
 
+ll ara[maxnum];
+ll maxrange[maxnum];
+ll kount[maxnum];
+
+int main(){
     ll n;
     scanf("%lld", &n);
 
-    ll ara[n+10];
-
-    for(ll i = 1; i <= n; i++){
+    for(ll i = 1; i <= n; i++)
         scanf("%lld", ara+i);
-    }
 
-    ll maxval = -1;
-    ll kount = 0;
-    set <ll> ans;
-    set <ll>:: iterator it;
+    ll maxlen = -1;
 
     for(ll i = 1; i <= n; i++){
 
         ll left, right;
-
         left = right = i;
-//        while(--left > 0 && ara[left] % ara[i] == 0) left--;
-//        while(right < n && ara[right] % ara[i] == 0) right++;
 
         while(1){
             if(ara[left-1] % ara[i] == 0 && left-1 > 0) left--;
@@ -37,46 +33,24 @@ int main(){
             else break;
         }
 
-        ll len = right - left;
+        ll curr_len = right - left;
 
-        //cout << i << " : " << left << " " << right << " Len: " << len << endl;
+        //cout << i << " " << left << " " << right << endl;
 
-        if(len > maxval){
-            ans.clear();
-            ans.insert(left);
-            maxval = len;
-            kount = 1;
-        }
-        else if(len == maxval){
-            ans.insert(left);
-            kount++;
+        if(curr_len >= maxlen){
+            if(maxrange[left] == curr_len && curr_len != 0) continue;
+            maxrange[left] = curr_len;
+            maxlen = curr_len;
+            kount[curr_len]++;
         }
 
         i = right;
-
     }
 
-    ll kk = ans.size();
+    printf("%lld %lld\n", kount[maxlen], maxlen);
 
-    printf("%lld %lld\n", kk , maxval);
-
-    ll siz = ans.size();
-
-//    for(ll i = 0; i < siz; i++){
-//        printf(i == 0 ? "%lld" : " %lld", ans[i] );
-//    }
-
-    bool first = true;
-    for(it = ans.begin(); it != ans.end(); it++){
-        if(first){
-            cout << *it ;
-            first = false;
-        }
-        else{
-            cout << " " << *it;
-        }
+    for(ll i = 1; i <= n; i++){
+        if(maxrange[i] == maxlen)
+            printf("%lld ", i);
     }
-    printf("\n");
-
-
 }
