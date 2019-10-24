@@ -6884,6 +6884,24 @@
     ],
     "timestamp": "Oct/23/2019 02:09"
   },
+  "CF63345031": {
+    "contest_id": 1249,
+    "language": "GNU C++17",
+    "path": "codeforces\\1249\\C1.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C1",
+    "problem_name": "Good Numbers (easy version)",
+    "problem_url": "https://codeforces.com/contest/1249/problem/C1",
+    "submission_id": "CF63345031",
+    "submission_url": "https://codeforces.com/contest/1249/submission/63345031",
+    "tags": [
+      "brute force",
+      "greedy",
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "Oct/25/2019 00:56"
+  },
   "CF63351621": {
     "contest_id": 1251,
     "language": "GNU C++17",
