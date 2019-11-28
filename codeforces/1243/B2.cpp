@@ -28,20 +28,20 @@ int main(){
         char a[n+2], t[n+2], a1, a2, t1, t2, kount = 0;
         scanf(" %s", a);
         scanf(" %s", t);
-//        ll kk[26];
-//        for(ll i = 0; i < 26; i++) kk[i] = 0;
-//        for(ll i = 0; i < n; i++){
-//            kk[a[i]-'a']++;
-//            kk[t[i]-'a']++;
-//        }
-//        ll no = false;
-//        for(ll i = 0; i < 26; i++){
-//            if(kk[i] & 1){
-//                no = true;
-//                break;
-//            }
-//        }
-//        if(no){printf("No\n"); continue;}
+        ll kk[26];
+        for(ll i = 0; i < 26; i++) kk[i] = 0;
+        for(ll i = 0; i < n; i++){
+            kk[a[i]-'a']++;
+            kk[t[i]-'a']++;
+        }
+        ll no = false;
+        for(ll i = 0; i < 26; i++){
+            if(kk[i] & 1){
+                no = true;
+                break;
+            }
+        }
+        if(no){printf("No\n"); continue;}
 
         vector<pair<ll, ll> > v;
 
