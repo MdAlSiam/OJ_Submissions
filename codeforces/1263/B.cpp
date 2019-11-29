@@ -33,57 +33,55 @@ int main(){
         for(ll i = 0; i < n; i++)
             cin >> str[i];
 
-//        bool used[10];
-//        memset(used, false, sizeof(used));
-//        ll index = 0;
-//
-//        for(ll i = 0; i < n; i++)
-//            used[str[i][0]-'0'] = true;
+        bool used[10];
+        memset(used, false, sizeof(used));
+        ll index = 0;
+
+        for(ll i = 0; i < n; i++)
+            used[str[i][0]-'0'] = true;
 
         ll kount = 0;
 
-//        for(ll i = 0; i < n-1; i++){
-//            for(ll j = i+1; j < n; j++){
-//                if(str[i] == str[j]){
-//                    while(used[index] == true) index++;
-//                    str[j][0] = index+'0';
-//                    used[index] = true;
-//                    kount++;
-//                }
-//            }
-//        }
-
-        //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-        for(ll i = 0; i < n; i++){
-
+        for(ll i = 0; i < n-1; i++){
             for(ll j = i+1; j < n; j++){
-
                 if(str[i] == str[j]){
-
+                    while(used[index] == true) index++;
+                    str[j][0] = index+'0';
+                    used[index] = true;
                     kount++;
-
-                    bool used[10];
-                    memset(used, false, sizeof(used));
-
-                    for(ll k = 0; k < n; k++){
-
-                        //if(k == j ) continue;
-                        //if(str[k][0] == str[j][0])
-                            used[str[k][0]-'0'] = true;
-                    }
-
-                    for(ll k = 0; k < 10; k++){
-                        //if(k == str[j][0] - '0' ) continue;
-                        if(used[k] == false){
-                            str[j][0] = k+'0';
-                            break;
-                        }
-
-                    }
                 }
             }
         }
+
+//        for(ll i = 0; i < n; i++){
+//
+//            for(ll j = i+1; j < n; j++){
+//
+//                if(str[i] == str[j]){
+//
+//                    kount++;
+//
+//                    bool used[10];
+//                    memset(used, false, sizeof(used));
+//
+//                    for(ll k = 0; k < n; k++){
+//
+//                        //if(k == j ) continue;
+//                        if(str[k][0] == str[j][0])
+//                            used[str[k][0]-'0'] = true;
+//                    }
+//
+//                    for(ll k = 0; k < 10; k++){
+//                        //if(k == str[j][0] - '0' ) continue;
+//                        if(used[k] == false){
+//                            str[j][0] = k+'0';
+//                            break;
+//                        }
+//
+//                    }
+//                }
+//            }
+//        }
 
         printf("%lld\n", kount);
         for(ll i = 0; i < n; i++)
