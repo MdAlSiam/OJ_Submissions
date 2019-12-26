@@ -32,21 +32,21 @@ int main(){
     for(ll i = 1; i <= n1; i++){
         if(x[i] != '9') kount++;
         else if(x[i] == '9' && x[i-1] != '9'){
-            if(kount & 1){
-                ans += kount*((kount+1)/2);
-            }
-            else{
+            //if(kount & 1){
+                ans += (kount*(kount+1))/2;
+            //}
+            /*else{
                 ans += (kount/2)*(kount+1);
-            }
+            }*/
             kount = 0;
         }
     }
-    if(kount & 1){
-        ans += kount*((kount+1)/2);
-    }
-    else{
-        ans += (kount/2)*(kount+1);
-    }
+    //if(kount & 1){
+        ans += (kount*(kount+1))/2;
+    //}
+    //else{
+    //    ans += (kount/2)*(kount+1);
+    //}
 
     printf("%lld\n", ans);
 
