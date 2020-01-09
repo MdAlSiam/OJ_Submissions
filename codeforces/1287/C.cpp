@@ -18,16 +18,13 @@ int call(int pos, int rem_even, int rem_odd, int prev_type){
 
     if(ara[pos] != 0){
         int curr_type = ara[pos] % 2;
-        ret = (pos>1 && prev_type != curr_type)+ \
-        call(pos+1, rem_even, rem_odd, curr_type);
+        ret = (pos>1 && prev_type != curr_type)+ call(pos+1, rem_even, rem_odd, curr_type);
     }
     else{
         if(rem_even > 0)
-            ret1 = (pos>1 && prev_type == 1)+ \
-            call(pos+1, rem_even-1, rem_odd, 0);
+            ret1 = (pos>1 && prev_type == 1)+ call(pos+1, rem_even-1, rem_odd, 0);
         if(rem_odd > 0)
-            ret2 = (pos>1 && prev_type == 0)+\
-            call(pos+1, rem_even, rem_odd-1, 1);
+            ret2 = (pos>1 && prev_type == 0)+call(pos+1, rem_even, rem_odd-1, 1);
         ret = min(ret1, ret2);
     }
 
