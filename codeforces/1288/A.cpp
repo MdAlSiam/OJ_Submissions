@@ -30,6 +30,7 @@ ll x, y, z;
 ll t, test, temp;
 
 int main(){scl(test); while(test--){
+
     scll(n, k);
 
     bool hobena = true;
@@ -39,10 +40,10 @@ int main(){scl(test); while(test--){
         continue;
     }
 
-    for(ll i = 1; i <= n; i++){
-        ll lag = k / (i+1);
-        if(((i+1)*lag)!=k) lag++;
-        if (i + lag <= n ){
+    for(ll i = 0; i < n; i++){
+        ll lagbe = k / (i+1);
+        if((lagbe*(i+1))  != k) lagbe++;
+        if( (i + lagbe) <= n ){
             hobena = false;
             break;
         }
