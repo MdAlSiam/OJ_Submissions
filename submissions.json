@@ -7968,6 +7968,24 @@
     ],
     "timestamp": "Jan/16/2020 18:41"
   },
+  "CF69247530": {
+    "contest_id": 1293,
+    "language": "PyPy 3",
+    "path": "codeforces\\1293\\B.py",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "JOE is on TV!",
+    "problem_url": "https://codeforces.com/contest/1293/problem/B",
+    "submission_id": "CF69247530",
+    "submission_url": "https://codeforces.com/contest/1293/submission/69247530",
+    "tags": [
+      "combinatorics",
+      "greedy",
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Jan/21/2020 19:21"
+  },
   "CF69260426": {
     "contest_id": 1293,
     "language": "Java 11",
