@@ -19,7 +19,7 @@ public class Siam
 		for(int i = 1; i <= n; i++){
 			ans += (1.00 / i);
 		}
-		printer.printf("%.4f\n", ans);
+		printer.printf("%.9f\n", ans);
 	}
 	
 	public static void main (String[] args) throws java.lang.Exception
