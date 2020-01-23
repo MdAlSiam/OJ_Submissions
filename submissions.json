@@ -7968,6 +7968,23 @@
     ],
     "timestamp": "Jan/16/2020 18:41"
   },
+  "CF69402917": {
+    "contest_id": 1294,
+    "language": "Python 3",
+    "path": "codeforces\\1294\\B.py",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Collecting Packages",
+    "problem_url": "https://codeforces.com/contest/1294/problem/B",
+    "submission_id": "CF69402917",
+    "submission_url": "https://codeforces.com/contest/1294/submission/69402917",
+    "tags": [
+      "implementation",
+      "sortings",
+      "*1200"
+    ],
+    "timestamp": "Jan/23/2020 15:45"
+  },
   "CF69406534": {
     "contest_id": 1294,
     "language": "Python 3",
