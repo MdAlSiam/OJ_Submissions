@@ -8017,6 +8017,23 @@
     ],
     "timestamp": "Feb/05/2020 00:16"
   },
+  "CF70961864": {
+    "contest_id": 362,
+    "language": "GNU C++17",
+    "path": "codeforces\\362\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Two Semiknights Meet",
+    "problem_url": "https://codeforces.com/contest/362/problem/A",
+    "submission_id": "CF70961864",
+    "submission_url": "https://codeforces.com/contest/362/submission/70961864",
+    "tags": [
+      "greedy",
+      "math",
+      "*1500"
+    ],
+    "timestamp": "Feb/13/2020 20:27"
+  },
   "CF70965699": {
     "contest_id": 362,
     "language": "GNU C++17",
