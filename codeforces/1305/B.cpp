@@ -61,16 +61,15 @@ int main(){//scl(test); while(test--){
         if(p2 < 0) break;
         if(fwd[p1] < bwd[p2]){p1++; p2--;}
         else break;
-        
+
     }
 
-    if(p1 == 0 || p2 == in2-1) printf("0\n");
-    else{
-        printf("1\n");
+        if(p1 == 0) printf("0\n");
+        else {printf("1\n");
         printf("%d\n", p1*2);
         for(ll i = 0; i < p1; i++) printf("%d ", fwd[i]);
         for(ll i = p2+1; i < in2; i++) printf("%d ", bwd[i]);
-        printf("\n");
-    }
+        printf("\n");}
+
 }//}
 
