@@ -8563,6 +8563,22 @@
     ],
     "timestamp": "Mar/21/2020 21:01"
   },
+  "CF74269127": {
+    "contest_id": 1315,
+    "language": "GNU C++17",
+    "path": "codeforces\\1315\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Dead Pixel",
+    "problem_url": "https://codeforces.com/contest/1315/problem/A",
+    "submission_id": "CF74269127",
+    "submission_url": "https://codeforces.com/contest/1315/submission/74269127",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Mar/25/2020 14:36"
+  },
   "CF74280342": {
     "contest_id": 1315,
     "language": "GNU C++17",
