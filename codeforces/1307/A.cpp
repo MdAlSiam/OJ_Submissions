@@ -10,8 +10,8 @@ using namespace std;
 #define scd(x) scanf("%lf", &x)
 #define scdd(x, y) scanf("%lf %lf", &x, &y)
 
-#define prl(x) printf("%lld\n", x)
-#define prll(x, y) printf("%lld %lld\n", x, y)
+#define prl(x) printf("%lld\n", x);
+#define prll(x, y) printf("%lld %lld\n", x, y);
 
 #define For(i, x, y) for(ll i = x; i < y; i++)
 
@@ -34,34 +34,28 @@ using namespace std;
 ///Analysis+Solution
 
 ll t, test, temp;
-ll n, m, k;
+ll n, m, k, d;
 ll a, b, c;
 ll x, y, z;
 
-int main(){
-#ifndef ONLINE_JUDGE
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
-#endif
-scl(test); while(test--){
-
-    ll d;
+int main(){scl(test); while(test--){
 
     scll(n, d);
     ll ara[n+6];
- 
+
     For(i, 1, n+1)
         scl(ara[i]);
- 
+
     ll kount = 0;
- 
+
     For(i, 2, n+1){
         ll dist = i-1;
         t = min(d/dist, ara[i]);
         d -= t*dist;
         kount += t;
     }
- 
+
     prl(ara[1]+kount);
 }}
+
 ///Test(Given, Scratch, Corner data, Code Counter)
