@@ -50,12 +50,19 @@ int main(){scl(test); while(test--){
 
     For(i, 2, n+1){
         ll dist = i-1;
-        t = min(d/dist, ara[i]);
-        d -= t*dist;
-        kount += t;
+        while(1){
+            if(d - dist >= 0 && ara[i] > 0){
+                ara[i]--;
+                kount++;
+                d -= dist;
+            }
+            else break;
+        }
+
     }
 
     prl(ara[1]+kount);
 }}
 
 ///Test(Given, Scratch, Corner data, Code Counter)
+
