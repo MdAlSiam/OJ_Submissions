@@ -9010,6 +9010,24 @@
     ],
     "timestamp": "Mar/30/2020 02:19"
   },
+  "CF75311150": {
+    "contest_id": 1307,
+    "language": "GNU C++17",
+    "path": "codeforces\\1307\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Cow and Friend",
+    "problem_url": "https://codeforces.com/contest/1307/problem/B",
+    "submission_id": "CF75311150",
+    "submission_url": "https://codeforces.com/contest/1307/submission/75311150",
+    "tags": [
+      "geometry",
+      "greedy",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Apr/03/2020 11:34"
+  },
   "CF75347766": {
     "contest_id": 1307,
     "language": "GNU C++17",
