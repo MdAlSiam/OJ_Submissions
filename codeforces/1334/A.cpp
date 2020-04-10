@@ -1,31 +1,72 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main()
-{
-    int test;
-    cin >> test;
+#define ll long long int
+#define ull unsigned long long int
+#define dd double
 
-    while(test--){
-        int n;
-        cin >> n;
-        int play[n], vict[n];
-        for(int i = 0; i < n; i++)
-            cin >> play[i] >> vict[i];
+#define scl(x) scanf("%lld", &x)
+#define scll(x, y) scanf("%lld %lld", &x, &y)
+#define scd(x) scanf("%lf", &x)
+#define scdd(x, y) scanf("%lf %lf", &x, &y)
 
-        bool yes = true;
+#define prl(x) printf("%lld\n", x)
+#define prll(x, y) printf("%lld %lld\n", x, y)
 
-        if(play[0] < vict[0]) yes = false;
+#define For(i, x, y) for(ll i = x; i < y; i++)
+#define Mem(ara, x) memset(ara, x, sizeof(ara))
 
-        for(int i = 1; i < n; i++){
+#define pb push_back
+#define pll pair <ll, ll >
+#define ff first
+#define ss second
 
-            if(play[i] < play[i-1]) yes = false;
-            if(vict[i] < vict[i-1]) yes = false;
+#define maxn 200005 ///2x10^5 // n*log n in 1 sec
+//#define maxn 1000006 ///10^6
+//#define maxn 1000000009 ///10^9
 
-            if(play[i] - play[i-1] < vict[i] - vict[i-1]) yes = false;
-        }
+#define pi acos(-1.00)
+#define eps 0.0000000001 ///10^-10
+#define inf LONG_LONG_MAX
+#define mod 1000000007 ///10^9+7
 
-        if(yes) cout << "YES" << endl;
-        else cout << "NO" << endl;
-    }
-}
+ll t, test, temp;
+ll n, m, k;
+ll a, b, c;
+ll x, y, z;
+
+int main(){
+#ifndef ONLINE_JUDGE
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
+#endif
+scl(test); while(test--){
+	scl(n);
+	ll ara[n], bra[n];
+	For(i, 0, n){
+		scll(ara[i], bra[i]);
+	}
+
+	bool yes = true;
+
+	if(ara[0] >= bra[0]){}
+	else yes = false;
+
+	For(i, 1, n){
+		if(ara[i] > ara[i-1] && bra[i] == bra[i-1]){}
+		else if(ara[i] == ara[i-1] && bra[i] == bra[i-1]){}
+		else if(ara[i] > ara[i-1] && bra[i] > bra[i-1]
+			&& bra[i]-bra[i-1] <= ara[i]-ara[i-1]){}
+		
+		else{yes = false; break;}
+
+		// if(bra[i] - bra[i-1] >= 0 
+		// 	&& ara[i] - ara[i-1] >=0
+		// 	&& bra[i] - bra[i-1] <= ara[i] - ara[i-1]){}
+		// else {yes = false; break;}
+	}
+
+	if(yes) printf("YES\n");
+	else printf("NO\n");
+}}
+///Test(Given, Scratch, Corner data, Code Counter)
