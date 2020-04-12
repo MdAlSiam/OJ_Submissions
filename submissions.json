@@ -9377,6 +9377,24 @@
     ],
     "timestamp": "Apr/10/2020 21:39"
   },
+  "CF76420029": {
+    "contest_id": 1339,
+    "language": "GNU C++17",
+    "path": "codeforces\\1339\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Powered Addition",
+    "problem_url": "https://codeforces.com/contest/1339/problem/C",
+    "submission_id": "CF76420029",
+    "submission_url": "https://codeforces.com/contest/1339/submission/76420029",
+    "tags": [
+      "bitmasks",
+      "brute force",
+      "greedy",
+      "*1500"
+    ],
+    "timestamp": "Apr/13/2020 00:45"
+  },
   "CF76428612": {
     "contest_id": 1301,
     "language": "GNU C++17",
