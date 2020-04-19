@@ -71,9 +71,9 @@ int main(){
 				//printf("---%lld to %lld---\n", i, j);
 			}
 		}
-		//kount.clear();
-		//extra = 0;
-		for(ll j = i; j <= n; j++){
+		kount.clear();
+		extra = 0;
+		for(ll j = 1; j <= n; j++){
 			kount[ara[j]]++;
 			if(kount[ara[j]] > 1) extra++;
 		}
