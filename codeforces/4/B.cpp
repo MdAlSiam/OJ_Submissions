@@ -55,13 +55,10 @@ fileornot();
 	if(minsum <= available && available <= maxsum) printf("YES\n");
 	else {printf("NO\n"); return 0;}
 	available -= minsum;
-	for(ll i = n-1; i >= 0; i--){
+	For(i, 0, n){
 		ll dhukbe = min(maxi[i]-mini[i], available);
 		mini[i] += dhukbe;
 		available -= dhukbe;
-		//printf("%lld ", mini[i]);
-	}
-	for(ll i = 0; i < n; i++){
 		printf("%lld ", mini[i]);
 	}
 	printf("\n");
