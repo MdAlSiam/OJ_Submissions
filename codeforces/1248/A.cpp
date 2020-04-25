@@ -15,7 +15,7 @@ void input_solve(){
     int odd1 = 0, even1 = 0;
     for(int i = 1; i <= n; i++) {
             scanf("%lld", p+i);
-            p[i] += 1;
+            //p[i] += 1;
             if(p[i] & 1) odd1++;
             else even1++;
     }
@@ -23,7 +23,7 @@ void input_solve(){
     int odd2 = 0, even2 = 0;
     for(int i = 1; i <= m; i++) {
             scanf("%d", q+i);
-            q[i] -= 1;
+            //q[i] -= 1;
             if(q[i] & 1) odd2++;
             else even2++;
     }
