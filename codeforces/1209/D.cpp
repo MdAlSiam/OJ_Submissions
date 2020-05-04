@@ -19,8 +19,8 @@ void join(int n1, int n2){
 }
 
 int main(){
-    cin >> n >> k;
-    //scanf("%d %d", &n, &k);
+    //cin >> n >> k;
+    scanf("%d %d", &n, &k);
 
     int kk = k;
 
@@ -28,11 +28,11 @@ int main(){
         dad[i] = i;
 
     while(k--){
-        cin >> n1 >> n2;
-        //scanf("%d %d", &n1, &n2);
+        //cin >> n1 >> n2;
+        scanf("%d %d", &n1, &n2);
         join(n1, n2);
     }
 
-    cout << kk - satisfied << endl;
-    //printf("%d\n", kk - satisfied);
+    //cout << kk - satisfied << endl;
+    printf("%d\n", kk - satisfied);
 }
