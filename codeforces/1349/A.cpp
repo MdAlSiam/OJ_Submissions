@@ -79,18 +79,15 @@ while(scl(n) == 1){
 
     ll ans = 1;
 
-    for(ll i = 2; i <= maxn; i += 2){
-        if(v[i].size() < n-1) {
-            if(i == 2) i = 1;
-            continue;
-        }
+    for(ll i = 2; i <= maxn; i++){
+        if(v[i].size() < n-1) continue;
         sort(v[i].begin(), v[i].end());
         ll here;
         if(v[i].size() == n) here = v[i][1];
         else here = v[i][0];
         while(here--) ans = ans * i;
         //cout << i << " ::: " << v[i].size() << " - " << here << " - " << ans << endl;
-        if(i == 2) i = 1;
+        //if(i == 2) i = 1;
     }
 
     prl(ans);
