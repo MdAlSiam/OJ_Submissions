@@ -3179,6 +3179,22 @@
     ],
     "timestamp": "Sep/18/2021 00:43"
   },
+  "CF80867948": {
+    "contest_id": 805,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\805\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Find Amir",
+    "problem_url": "https://codeforces.com/contest/805/problem/C",
+    "submission_id": "CF80867948",
+    "submission_url": "https://codeforces.com/contest/805/submission/80867948",
+    "tags": [
+      "constructive algorithms",
+      "*1000"
+    ],
+    "timestamp": "May/21/2020 21:40"
+  },
   "CF80872452": {
     "contest_id": 805,
     "language": "GNU C++17 (64)",
