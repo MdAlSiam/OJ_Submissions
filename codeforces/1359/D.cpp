@@ -61,12 +61,8 @@ int32_t main(){
                 sum = 0;
                 found = false;
             }
-            else if(sum+a[j] > a[j]){
-                sum += a[j];
-            }
             else{
-                sum = a[j];
-                found = false;
+                sum = max(sum+a[j], a[j]);
             }
 
             if(a[j] == toremove) found = true;
