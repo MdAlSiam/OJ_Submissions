@@ -50,13 +50,8 @@ int bin_search(int lo, int hi){
 
 int main(){
     cin >> n >> k;
-    int mini = INT_MAX, maxi = -1;
-    for(int i = 1; i <= n; i++){
+    for(int i = 1; i <= n; i++)
         cin >> ara[i];
-        mini = min(mini, ara[i]);
-        maxi = max(maxi, ara[i]);
-    }
-
-    int ans = bin_search(mini, maxi);
+    int ans = bin_search(1, 1e9+7);
     cout << ans << endl;
 }
