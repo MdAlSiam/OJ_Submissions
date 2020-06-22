@@ -3179,6 +3179,23 @@
     ],
     "timestamp": "Sep/18/2021 00:43"
   },
+  "CF84696276": {
+    "contest_id": 1334,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\1334\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Middle Class",
+    "problem_url": "https://codeforces.com/contest/1334/problem/B",
+    "submission_id": "CF84696276",
+    "submission_url": "https://codeforces.com/contest/1334/submission/84696276",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*1100"
+    ],
+    "timestamp": "Jun/23/2020 02:20"
+  },
   "CF84721634": {
     "contest_id": 1301,
     "language": "GNU C++17 (64)",
