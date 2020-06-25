@@ -20,20 +20,14 @@ int32_t main(){
         int curr_profit = 0;
         for(int i = 0; i+1 < n; i += 2){
             curr_profit += (ara[i+1] - ara[i]);
-            if(curr_profit < 0) {
-                curr_profit = 0;
-                continue;
-            }
+            if(curr_profit < 0) { curr_profit = 0; continue;}
             profit = max(curr_profit, profit);
         }
         int profit2 = 0;
         int curr_profit2 = 0;
-        for(int i = 1; i+1 < n; i += 2){
-            curr_profit2 += (ara[i] - ara[i+1]);
-            if(curr_profit2 < 0) {
-                curr_profit2 = 0;
-                continue;
-            }
+        for(int i = 2; i < n; i += 2){
+            curr_profit2 += (ara[i-1] - ara[i]);
+            if(curr_profit2 < 0) { curr_profit2 = 0; continue;}
             profit2 = max(curr_profit2, profit2);
         }
         cout << ans + max(profit, profit2) << endl;
