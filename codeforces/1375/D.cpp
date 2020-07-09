@@ -38,7 +38,7 @@ void solve(){
     while(1){
         if(isSorted()) break;
         int mex = find_mex();
-        if(mex == -1) break;
+        //if(mex == -1) break;
 
         if(mex == n){
             for(int i = 0; i < n; i++){
