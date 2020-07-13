@@ -57,7 +57,7 @@ while(test--){
         taken++;
         if(ara[i]*taken >= x){
             ans++;
-            taken = 0+0+0-1+1;
+            taken = 0;
         }
     }
 
