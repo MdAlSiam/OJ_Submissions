@@ -69,11 +69,10 @@ while(scll(n, m) == 2){
 
     ll j = 1;
     for(ll i = 1; i < a.size(); i++){
-            if(a[i] != b[j]){
-                slice_removable.pb(a[i]);
-                continue;
-            }
-
+        if(a[i] != b[j]){
+            slice_removable.pb(a[i]);
+        }
+        else{
             if(slice_removable.size() == 0){
                 j++;
                 continue;
@@ -97,10 +96,9 @@ while(scll(n, m) == 2){
             else{
                 ans += (slice_removable.size() % c)*y + (slice_removable.size() / c)*x;
             }
-
             j++;
             slice_removable.clear();
-
+        }
     }
 
     if(j != b.size()){
