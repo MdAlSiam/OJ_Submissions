@@ -78,25 +78,16 @@ while(test--){
             strforb[indices[i]] = chartouse;
         }
 
-//        For(i, 0, indices.size()){
-//            For(j, 0, m){
-//                if(strforb[j] == '#'){
-//                    b[j] -= abs(j - indices[i]);
-//                }
-//            }
-//        }
-
-        For(i, 0, m){
-            if(b[i] > 0){
-                For(j, 0, indices.size()){
-                    b[i] -= abs(i - indices[j]);
+        For(i, 0, indices.size()){
+            For(j, 0, m){
+                if(strforb[j] == '#'){
+                    b[j] -= abs(j - indices[i]);
                 }
             }
         }
 
         for(ll i = chartouse-'a'; i < 26; i++)
             kount[i] = 0;
-
     }
 
     cout << strforb << endl;
