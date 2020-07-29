@@ -83,7 +83,6 @@ while(test--){
         for(ll j = i+1; j < 10; j++){
 
             //prev
-
             ll pairkount = 0;
 
             for(ll k = 0; k < pos[i].size(); k++){
@@ -91,7 +90,9 @@ while(test--){
                 ll curr_pos = pos[i][k];
 
                 ll ase;
-                if(k == 0)
+                if(pos[i][k] == 0)
+                    ase = 0;
+                else if(k == 0)
                     ase = cumtable[j][curr_pos-1];
                 else
                     ase = cumtable[j][curr_pos-1] - cumtable[j][pos[i][k-1]];
@@ -111,7 +112,10 @@ while(test--){
                 ll curr_pos = pos[i][k];
 
                 ll ase;
-                if(k == pos[i].size() - 1)
+
+                if(pos[i][k] == str.size() - 1)
+                    ase = 0;
+                else if(k == pos[i].size() - 1)
                     ase = cumtable[j][str.size()-1] - cumtable[j][curr_pos];
                 else
                     ase =  cumtable[j][pos[i][k+1]-1] - cumtable[j][curr_pos];
