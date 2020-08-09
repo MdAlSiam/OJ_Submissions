@@ -51,9 +51,10 @@ while(test--){
     For(i, 0, n) kount[ara[i]]++;
     sort(kount, kount+n+1, greater<ll>());
     ll tosub = 1;
-    For(i, 1, n+1)
+    For(i, 1, n+1){
         if(kount[i] == kount[0]) tosub++;
         else break;
+    }
     ans = ((n-tosub)/(kount[0]-1)) - 1;
     prl(ans);
 }
