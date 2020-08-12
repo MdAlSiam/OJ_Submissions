@@ -44,7 +44,6 @@ int main(){
 while(scl(test) == 1){
 while(test--){
     scl(n);
-    ll nn = n;
     For(i, 1, n+1) printf("%lld ", i);
     printf("\n");
 }
