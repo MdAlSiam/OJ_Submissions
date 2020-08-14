@@ -30,7 +30,6 @@ int main(){
     sort(green, green+gkount, greater<int64_t>());
     sort(blue, blue+bkount, greater<int64_t>());
 
-    //ok
     memset(dp, -1, sizeof(dp));
     cout << explore(0, 0, 0) << endl;
 }
