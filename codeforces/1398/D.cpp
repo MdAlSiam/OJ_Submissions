@@ -6,10 +6,10 @@ int64_t red[201], green[201], blue[201];
 int64_t dp[201][201][201];
 
 int64_t explore(int64_t rp, int64_t gp, int64_t bp){
-    if(rp >= rkount and gp >= gkount and bp >= bkount) return 0;
+    //if(rp >= rkount and gp >= gkount and bp >= bkount) return 0;
     if(dp[rp][gp][bp] != -1) return dp[rp][gp][bp];
 
-    int64_t ret1 = 0LL,
+    int64_t ret1 = 0,
             ret2 = 0,
             ret3 = 0;
 
