@@ -9,7 +9,7 @@ int64_t explore(int64_t rp, int64_t gp, int64_t bp){
     if(rp >= rkount and gp >= gkount and bp >= bkount) return 0;
     if(dp[rp][gp][bp] != -1) return dp[rp][gp][bp];
 
-    int64_t ret1 = 0,
+    int64_t ret1 = 0LL,
             ret2 = 0,
             ret3 = 0;
 
@@ -31,7 +31,5 @@ int main(){
     sort(blue, blue+bkount, greater<int64_t>());
 
     memset(dp, -1, sizeof(dp));
-    
-    
     cout << explore(0, 0, 0) << endl;
 }
