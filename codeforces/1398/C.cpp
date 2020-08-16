@@ -14,10 +14,8 @@ int main(){
         cin >> n;
         scanf(" %s", &str);
         for(int64_t i = 0; i < n; i++) ara[i] = str[i] - '0';
-        for(int64_t i = 0; i < n; i++){
-            ara[i]--;
-            if(i > 0) ara[i] += ara[i-1];
-        }
+        for(int64_t i = 0; i < n; i++) ara[i]--;;
+        for(int64_t i = 1; i < n; i++) ara[i] += ara[i-1];
         ans = 0;
         mp.clear();
         mp[0] = 1;
