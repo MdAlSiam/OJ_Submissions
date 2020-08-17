@@ -13404,6 +13404,22 @@
     ],
     "timestamp": "Aug/16/2020 04:38"
   },
+  "CF90264127": {
+    "contest_id": 92,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\92\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Binary Number",
+    "problem_url": "https://codeforces.com/contest/92/problem/B",
+    "submission_id": "CF90264127",
+    "submission_url": "https://codeforces.com/contest/92/submission/90264127",
+    "tags": [
+      "greedy",
+      "*1300"
+    ],
+    "timestamp": "Aug/18/2020 03:25"
+  },
   "CF90264804": {
     "contest_id": 92,
     "language": "GNU C++17 (64)",
