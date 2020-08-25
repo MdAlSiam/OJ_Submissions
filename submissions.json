@@ -13632,6 +13632,26 @@
     ],
     "timestamp": "Aug/18/2020 18:26"
   },
+  "CF91000011": {
+    "contest_id": 1400,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\1400\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Zigzags",
+    "problem_url": "https://codeforces.com/contest/1400/problem/D",
+    "submission_id": "CF91000011",
+    "submission_url": "https://codeforces.com/contest/1400/submission/91000011",
+    "tags": [
+      "brute force",
+      "combinatorics",
+      "data structures",
+      "math",
+      "two pointers",
+      "*1900"
+    ],
+    "timestamp": "Aug/26/2020 01:46"
+  },
   "CF91004320": {
     "contest_id": 1400,
     "language": "GNU C++17 (64)",
