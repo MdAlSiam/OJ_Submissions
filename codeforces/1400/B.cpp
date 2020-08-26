@@ -37,6 +37,8 @@ using namespace std;
 #define inf LONG_LONG_MAX
 #define mod 1000000007 ///10^9+7
 
+/***********************************************/
+
 ll t, test, temp;
 ll n, m, k, kount;
 ll a, b, c, ans;
