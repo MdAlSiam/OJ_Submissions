@@ -42,38 +42,49 @@ using namespace std;
 ll t, test, temp;
 ll n, m, k, kount;
 ll a, b, c, ans;
-ll x, y, z = -1, maxi, mini, ara[5050];
+ll x, y, z = -1;
+
+ll ara[5050];
 
 /*_________________________________________________________________________________________*/
 
 ll go(ll lo, ll hi){
-    mini = inf;
-    For(i, lo, hi+1) mini = min(mini, ara[i]);
-    For(i, lo, hi+1) ara[i] -= mini;
-    ll _ans = mini;
+    ll _mini = inf;
+    For(i, lo, hi+1) _mini = min(_mini, ara[i]);
+    For(i, lo, hi+1) ara[i] -= _mini;
+    ll _ans = _mini;
     ll _lt = lo;
-
     For(i, lo, hi+2){
-        if(i == hi+1 or ara[i] == 0){
+        if(i == hi+1){
+            if(_lt < i) _ans += go(_lt, i-1);
+            continue;
+        }
+        if(ara[i] == 0){
             if(_lt < i) _ans += go(_lt, i-1);
             _lt = i+1;
         }
     }
 
-    return min(_ans, hi-lo+1);
+    return min(hi-lo+1, _ans);
 }
 
 void solve(){
     scl(n);
     For(i, 1, n+1) scl(ara[i]);
+
     ans = 0;
     ll lt = 1;
     For(i, 1, n+2){
-        if(i == n+1 or ara[i] == 0){
+        if(i == n+1){
+            if(lt < i) ans += go(lt, i-1);
+            continue;
+        }
+        if(ara[i] == 0){
             if(lt < i) ans += go(lt, i-1);
             lt = i+1;
         }
     }
+
     prl(ans);
 }
 
