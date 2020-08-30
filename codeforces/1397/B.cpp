@@ -61,8 +61,7 @@ void solve(){
 
         For(j, 0, n+1){
            if(j == n) {ans = min(ans, _ans); break;}
-           if (_ans < inf - abs(cand - ara[j])) _ans += abs(cand - ara[j]);
-           else break;
+           _ans += abs(cand - ara[j]);
            if(cand < (inf/i)) cand *= i;
            else break;
         }
