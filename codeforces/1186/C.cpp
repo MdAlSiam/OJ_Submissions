@@ -1,31 +1,87 @@
-#include <bits/stdc++.h>
+ /* In the name of Allah SWT */
+
 using namespace std;
+#include <bits/stdc++.h>
 
-int main(){
-    string big, refer;
-    cin >> big;
-    cin >> refer;
-    big = "#" + big;
+#define ll long long int
+#define dd double
 
-    int cumone[big.length()];
-    cumone[0] = 0;
-    for (int i = 1; i < big.length(); i++) cumone[i] = cumone[i-1] + (big[i] == '1');
-    int refone = 0;
-    for (int i = 0; i < refer.length(); i++) refone += (refer[i] == '1');
+#define scl(x) scanf("%lld", &x)
+#define scll(x, y) scanf("%lld %lld", &x, &y)
+#define scd(x) scanf("%lf", &x)
+#define scdd(x, y) scanf("%lf %lf", &x, &y)
 
-    int ans = 0;
+#define ON(n,i) (n|(1LL<<i))
+#define OFF(n,i) (n&(~(1LL<<i)))
+#define CHK(n,i) (n&(1LL<<i))
 
-    for (int start = 1; start+refer.length()-1 < big.length(); start++) {
-        int kount = cumone[start+refer.length()-1] - cumone[start-1];
-        if (kount%2 == refone%2) ans++;
+#define prl(x) printf("%lld\n", x)
+#define prll(x, y) printf("%lld %lld\n", x, y)
+#define prys printf("YES\n")
+#define prno printf("NO\n")
 
-        if(false and kount%2 == refone%2){
-            for (int i = start; i <= start+refer.length()-1; i++) {
-                cout << big[i];
-            }
-            cout << " " << kount << " " << refone << endl;
+#define For(i, x, y) for(ll i = x; i < y; i++)
+#define Mem(ara, x) memset(ara, x, sizeof(ara))
+
+#define pb push_back
+#define pll pair <ll, ll >
+#define ff first
+#define ss second
+
+#define maxn 200005 ///2x10^5 // n*log n in 1 sec
+//#define maxn 1000006 ///10^6
+//#define maxn 1000000009 ///10^9
+
+#define pi acos(-1.00)
+#define eps 0.0000000001 ///10^-10
+#define inf LONG_LONG_MAX
+#define mod 1000000007 ///10^9+7
+
+/*******************************************************************************************/
+
+ll t, test, temp;
+ll n, m, k, kount;
+ll a, b, c, ans;
+ll x, y, z = -1, maxi, mini;
+
+/*_________________________________________________________________________________________*/
+
+void solve(){
+    string bigger, smaller;
+    cin >> bigger;
+    cin >> smaller;
+
+    bigger = "#" + bigger;
+
+    ll onekount[bigger.length()];
+    onekount[0] = 0;
+
+    For(i, 1, bigger.length()){
+        onekount[i] = onekount[i-1] + (bigger[i] == '1');
+    }
+
+    ll oneinsmaller = 0;
+
+    For(i, 0, smaller.length()){
+        if(smaller[i] == '1') oneinsmaller++;
+    }
+
+    ans = 0;
+
+    for(ll i = 1; i + smaller.length() - 1 < bigger.length(); i++){
+        kount = onekount[i + smaller.length() - 1] - onekount[i-1];
+        if (kount % 2 == oneinsmaller % 2){
+            ans++;
         }
     }
 
-    cout << ans << endl;
+    prl(ans);
 }
+
+int main(){
+    test = 1;
+    //while(scl(test) == 1)
+    while(test--) solve();
+}
+
+/*******************************************************************************************/
