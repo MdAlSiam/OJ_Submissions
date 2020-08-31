@@ -48,29 +48,31 @@ ll x, y, z = -1, maxi, mini;
 
 void solve(){
     scl(n);
-
-    ll ara[n];
-    ll sign[n];
-
-    ll possum = 0, negsum = 0;
-
-    For (i, 0, n) {
+    ll ara[n+1];
+    ll sign[n+1];
+    ll plussum = 0, minussum = 0;
+    For(i, 0, n){
         dd tt;
         scd(tt);
+        ara[i] = (ll)(tt);
 
-        ara[i] = (ll) tt;
+        if(abs(tt - ara[i]*1.00) <= eps) sign[i] = 0;
+        else if(ara[i] == 0 and tt <= -eps) sign[i] = -1;
+        else if(ara[i] == 0 and tt >= eps) sign[i] = 1;
+        else if(ara[i] > 0) sign[i] = 1;
+        else sign[i] = -1;
 
-        if (abs(1.00*ara[i]-tt) <= eps) sign[i]=0;
-        else if (tt <= -eps) sign[i] = -1;
-        else if (tt >= eps) sign[i] = 1;
-
-        if (ara[i] < 0) negsum += -ara[i];
-        else possum += ara[i];
+        if(ara[i] < 0){
+            minussum += -ara[i];
+        }
+        else{
+            plussum += ara[i];
+        }
     }
 
-    ll diff = abs(possum - negsum);
+    ll diff = abs(plussum - minussum);
 
-    if(possum < negsum){
+    if(plussum < minussum){
         For(i, 0, n){
             if(sign[i] == 1 and diff){
                 prl(ara[i]+1);
@@ -81,11 +83,13 @@ void solve(){
     }
     else{
         For(i, 0, n){
-            if (sign[i] == -1 and diff) {
-                prl(ara[i]-1);
+            if(sign[i] == -1 and diff){
+                prl(ara[i] - 1);
                 diff--;
             }
-            else prl(ara[i]);
+            else{
+                prl(ara[i]);
+            }
         }
     }
 }
