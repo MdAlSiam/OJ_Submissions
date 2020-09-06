@@ -76,7 +76,7 @@ void solve() {
 
     }
 
-    for (ll i = 1; i <= 1; i = i+k) {
+    for (ll i = 1; i+k-1 < len; i = i+k) {
         ll zero, one, what;
         zero = one = what = 0;
 
@@ -109,4 +109,4 @@ int main() {
     while (scl(test) == 1)
     while (test--) solve();
 }
- 
+
