@@ -46,7 +46,19 @@ void solve() {
     scll(x, y);
     scl(k);
 
-    n = (k+k*y-1+x-2)/(x-1);
+    n = 0;
+
+//    while(true) {
+//        if (x + n*x - n >= k+y*k) {
+//            break;
+//        }
+//        n++;
+//    }
+
+//    prl(n);
+
+    n = (k+k*y-1)/(x-1);
+    if (n*(x-1) != k+k*y-1) n++;
     prl(n+k);
 }
 
