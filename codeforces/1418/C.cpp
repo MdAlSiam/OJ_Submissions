@@ -1,5 +1,3 @@
-
-
 /// In the name of Allah SWT
 
 using namespace std;
@@ -30,7 +28,7 @@ using namespace std;
 #define ff first
 #define ss second
 
-#define maxn 200005 ///2x10^5
+#define maxn 200055 ///2x10^5
 //#define maxn 1000006 ///10^6
 //#define maxn 1000000009 ///10^9
 
@@ -46,33 +44,40 @@ ll x, y, z = -1, maxi, mini;
 ll ara[maxn];
 ll dp[maxn][2];
 
-ll go(ll index, ll stage) {
+ll go (ll index, ll step) {
+    //base
+    if (index >= n) return 0;
 
-    if (index == n) return 0;
+    //opt
+    if (dp[index][step] != -1) return dp[index][step];
 
-    if (dp[index][stage] != -1) return dp[index][stage];
+    ll ret1 = 0, ret2 = 0, ret3 = 0, ret4 = 0, ret;
 
-    ll ret = inf;
-    if (stage & 1) {
-        ret = min(ret, ara[index]+go(index+1, 2));
-        if (index+1 < n) ret = min(ret, ara[index]+ara[index+1]+go(index+2, 2));
+    if (step & 1) {
+        ret1 += ara[index] + go(index+1, 2);
+        ret2 += ara[index] + ara[index+1] + go(index+2, 2);
+        ret = min(ret1, ret2);
     }
     else {
-        ret = min(ret, go(index+1, 1));
-        if (index+1 < n) ret = min(ret, go(index+2, 1));
+        ret3 += go(index+1, 1);
+        ret4 += go(index+2, 1);
+        ret = min(ret3, ret4);
     }
 
-    return dp[index][stage] = ret;
+    return dp[index][step] = ret;
 }
 
 void solve() {
     scl(n);
-    For (i, 0, n) {
+    For (i, 0, n){
         scl(ara[i]);
+    }
+
+    For (i, 0, n+2){
         dp[i][0] = dp[i][1] = -1;
     }
-    dp[n][0] = dp[n][1] = -1;
-    prl(go(0, 1));
+
+    cout << go(0, 1) << endl;
 }
 
 int main() {
@@ -80,3 +85,4 @@ int main() {
     while (scl(test) == 1)
     while (test--) solve();
 }
+
