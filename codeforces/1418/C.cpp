@@ -73,7 +73,7 @@ void solve() {
         scl(ara[i]);
     }
 
-    For (i, 0, n+2){
+    For (i, 0, n+10){
         dp[i][0] = dp[i][1] = -1;
     }
 
