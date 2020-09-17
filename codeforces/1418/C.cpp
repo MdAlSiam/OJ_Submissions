@@ -48,14 +48,14 @@ ll dp[maxn][2];
 
 ll go(ll index, ll stage) {
 
-    if (index >= n) return 0;
+    if (index == n) return 0;
 
     if (dp[index][stage] != -1) return dp[index][stage];
 
     ll ret = inf;
     if (stage & 1) {
-        ret = min(ret, ara[index]+go(index+1, 0));
-        if (index+1 < n) ret = min(ret, ara[index]+ara[index+1]+go(index+2, 0));
+        ret = min(ret, ara[index]+go(index+1, 2));
+        if (index+1 < n) ret = min(ret, ara[index]+ara[index+1]+go(index+2, 2));
     }
     else {
         ret = min(ret, go(index+1, 1));
@@ -71,7 +71,7 @@ void solve() {
         scl(ara[i]);
         dp[i][0] = dp[i][1] = -1;
     }
-    //dp[n][0] = dp[n][1] = -1;
+    dp[n][0] = dp[n][1] = -1;
     prl(go(0, 1));
 }
 
