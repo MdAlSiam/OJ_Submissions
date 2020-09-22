@@ -84,7 +84,8 @@ void solve() {
         ll maxgcdpos = -1;
 
         For (i, 0, n) {
-            if (not taken[i]) {
+            if (taken[i]) continue;
+            else {
                 ll gcd_here = find_gcd(prevone, ara[i]);
                 if (gcd_here > maxgcd) {
                     maxgcd = gcd_here;
@@ -93,6 +94,7 @@ void solve() {
                 alltaken = false;
             }
         }
+
 
         if (alltaken) break;
 
