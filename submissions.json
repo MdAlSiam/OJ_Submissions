@@ -14506,6 +14506,24 @@
     ],
     "timestamp": "Sep/18/2020 16:54"
   },
+  "CF93781728": {
+    "contest_id": 1420,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\1420\\C1.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C1",
+    "problem_name": "Pok\u00e9mon Army (easy version)",
+    "problem_url": "https://codeforces.com/contest/1420/problem/C1",
+    "submission_id": "CF93781728",
+    "submission_url": "https://codeforces.com/contest/1420/submission/93781728",
+    "tags": [
+      "constructive algorithms",
+      "dp",
+      "greedy",
+      "*1300"
+    ],
+    "timestamp": "Sep/25/2020 18:00"
+  },
   "CF93952312": {
     "contest_id": 1420,
     "language": "GNU C++17 (64)",
