@@ -1,37 +1,51 @@
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 #define int long long int
+
+int n;
+int ara[300005];
+int dp[300005][2];
+
+int go (int index, int type) {
+    if (index >= n) {
+        return 0;
+    }
+
+    if (dp[index][type] != -1) {
+        return dp[index][type];
+    }
+
+    int ret = -1;
+    if (type == 0) {
+        ret = max(ret, ara[index]+go(index+1, 1));
+        ret = max(ret, go(index+1, 0));
+    }
+    else {
+        ret = max(ret, -ara[index]+go(index+1, 0));
+        ret = max(ret, go(index+1, 1));
+    }
+
+    // cout << "ind " << index << " ret " << ret << endl;
+
+    dp[index][type] = ret;
+
+    return ret;
+}
 
 int32_t main() {
     int test;
     cin >> test;
 
     while (test--) {
-        int n, k;
-        cin >> n >> k;
+        int _;
+        cin >> n >> _;
 
-        int ara[n+10];
-        ara[0] = -1;
-        for (int i = 1; i <= n; i++) {
+        for (int i = 0; i < n; i++) {
             cin >> ara[i];
-        }
-        ara[n+1] = -1;
-
-        int ans = 0;
-
-        for (int i = 1; i <= n; i++) {
-            if (ara[i-1] < ara[i] and ara[i] > ara[i+1]) {
-                // peak
-                ans += ara[i];
-            }
-            if (ara[i-1] > ara[i] and ara[i] < ara[i+1]) {
-                // valley
-                ans -= ara[i];
-            }
+            dp[i][0] = dp[i][1] = -1;
         }
 
-        cout << ans << endl;
+        cout << go(0, 0) << endl;
     }
-
 }
