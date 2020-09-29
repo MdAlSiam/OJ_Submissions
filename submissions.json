@@ -14506,6 +14506,24 @@
     ],
     "timestamp": "Sep/18/2020 16:54"
   },
+  "CF94191287": {
+    "contest_id": 1426,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\1426\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Increase and Copy",
+    "problem_url": "https://codeforces.com/contest/1426/problem/C",
+    "submission_id": "CF94191287",
+    "submission_url": "https://codeforces.com/contest/1426/submission/94191287",
+    "tags": [
+      "binary search",
+      "constructive algorithms",
+      "math",
+      "*1100"
+    ],
+    "timestamp": "Sep/29/2020 14:32"
+  },
   "CF94226881": {
     "contest_id": 1426,
     "language": "GNU C++17 (64)",
