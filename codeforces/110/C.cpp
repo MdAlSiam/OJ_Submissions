@@ -63,7 +63,6 @@ void solve() {
     }
 
     prl(z);
-    aNewLine;
 }
 
 int main() {
