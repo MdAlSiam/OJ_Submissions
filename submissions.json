@@ -3179,6 +3179,23 @@
     ],
     "timestamp": "Sep/18/2021 00:43"
   },
+  "CF99802905": {
+    "contest_id": 146,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\146\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Lucky Mask",
+    "problem_url": "https://codeforces.com/contest/146/problem/B",
+    "submission_id": "CF99802905",
+    "submission_url": "https://codeforces.com/contest/146/submission/99802905",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "Nov/28/2020 21:18"
+  },
   "CF99845606": {
     "contest_id": 1457,
     "language": "GNU C++17 (64)",
