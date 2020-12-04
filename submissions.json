@@ -132,6 +132,22 @@
     ],
     "timestamp": "Dec/03/2020 12:05"
   },
+  "CF100361520": {
+    "contest_id": 1453,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\1453\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Cancel the Trains",
+    "problem_url": "https://codeforces.com/contest/1453/problem/A",
+    "submission_id": "CF100361520",
+    "submission_url": "https://codeforces.com/contest/1453/submission/100361520",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Dec/04/2020 19:25"
+  },
   "CF100543056": {
     "contest_id": 1450,
     "language": "GNU C++17 (64)",
