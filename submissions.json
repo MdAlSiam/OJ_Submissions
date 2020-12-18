@@ -132,6 +132,25 @@
     ],
     "timestamp": "Dec/03/2020 12:05"
   },
+  "CF101675062": {
+    "contest_id": 186,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\186\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Plant",
+    "problem_url": "https://codeforces.com/contest/186/problem/C",
+    "submission_id": "CF101675062",
+    "submission_url": "https://codeforces.com/contest/186/submission/101675062",
+    "tags": [
+      "dp",
+      "math",
+      "matrices",
+      "number theory",
+      "*1300"
+    ],
+    "timestamp": "Dec/19/2020 02:05"
+  },
   "CF101696319": {
     "contest_id": 1462,
     "language": "GNU C++17 (64)",
