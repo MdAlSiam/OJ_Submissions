@@ -56,9 +56,9 @@ ll bigmod(ll base, ll pow) {
 
 void solve() {
     cin >> n;
+    //cout << (*((((bigmod(2, n))%mod+1%mod)%mod)%mod)*((bigmod(2, mod-2))%mod))%mod << endl;
     a = ((bigmod(2LL, n))%mod);
     ans = a;
-    a = ((bigmod(2LL, n))%mod);
     a = ((a%mod)+(1LL%mod))%mod;
     ans = ((ans%mod)*(a%mod))%mod;
     ans = ((ans%mod)*((bigmod(2, mod-2LL))%mod))%mod;
@@ -71,3 +71,5 @@ int main() {
     //scl(test);
     while (test--) solve();
 }
+    
+    
