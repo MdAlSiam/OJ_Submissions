@@ -47,7 +47,7 @@ void solve() {
     ll ara[n], bra[m];
     For (i, 0, n) scl(ara[i]);
     For (i, 0, m) scl(bra[i]);
-    if (n < 2) {
+    if (n <= 2) {
         For (i, 0, m) {
             ans = ara[0]+bra[i];
             For (j, 1, n) {
