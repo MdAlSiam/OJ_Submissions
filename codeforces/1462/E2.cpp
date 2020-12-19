@@ -61,12 +61,12 @@ ll bigMod(ll base, ll pow) {
 
 ll inverseMod(ll num1) {return bigMod(num1, mod-2);}
 
-ll facts[maxn];
+ll facts[maxn+maxn+maxn];
 
 void precalculateFactorials(){
     facts[0] = 1;
     facts[1] = 1;
-    For (i, 2, maxn+1) {
+    For (i, 2, maxn+maxn+maxn+1) {
         facts[i] = multiply(i, facts[i-1]);
     }
 }
