@@ -5,7 +5,6 @@ using namespace std;
 
 #define ll long long int
 #define dd double
-
 #define scl(x) scanf("%lld", &x)
 #define scll(x, y) scanf("%lld %lld", &x, &y)
 #define scd(x) scanf("%lf", &x)
@@ -29,84 +28,82 @@ using namespace std;
 #define ff first
 #define ss second
 
-#define maxn 200005LL ///2x10^5 + 5
-//#define maxn 1000006LL ///10^6 + 6
-//#define maxn 1000000009LL ///10^9 + 9
+#define maxn 200005 ///2x10^5 + 5
+//#define maxn 1000006 ///10^6 + 6
+//#define maxn 1000000009 ///10^9 + 9
 
 #define pi acos(-1.00)
 #define eps 0.0000000001 ///10^-10
 #define inf LONG_LONG_MAX
-#define mod 1000000007LL ///10^9+7
+#define mod 1000000007 ///10^9+7
 
 ll t, test, temp;
 ll n, m, k, kount;
 ll a, b, c, ans, u, v;
 ll x, y, z = -1, maxi, mini;
 
-ll factorial[maxn];
+ll multiply(ll num1, ll num2) {return ((num1%mod)*(num2%mod))%mod;}
 
-ll add(ll n1, ll n2) {return ((n1%mod)+(n2%mod))%mod;}
+ll add(ll num1, ll num2) {return ((num1%mod)+(num2%mod))%mod;}
 
-ll multiply(ll n1, ll n2) {return ((n1%mod)*(n2%mod))%mod;}
-
-ll bigmod(ll base, ll power) {
-    if (base == 0) return 1;
-    if (power == 1) return base;
-    if (power & 1) {
-        return multiply(bigmod(base, power-1), base);
+ll bigMod(ll base, ll pow) {
+    if (pow == 0) return 1;
+    if (pow == 1) return base;
+    if (pow & 1) {
+        return multiply(bigMod(base, pow-1), base);
     }
     else {
-        ll ret = bigmod(base, power/2);
+        ll ret = bigMod(base, pow/2);
         ret = multiply(ret, ret);
         return ret;
     }
 }
 
-ll inverseMod(ll num) {
-    return bigmod(num, mod-2);
-    // no mission, no vision, still alive
+ll inverseMod(ll num1) {return bigMod(num1, mod-2);}
+
+ll facts[maxn];
+
+void precalculateFactorials(){
+    facts[0] = 1;
+    facts[1] = 1;
+    For (i, 2, maxn+1) {
+        facts[i] = multiply(i, facts[i-1]);
+    }
 }
 
-ll nCr(ll num, ll r) {
-    ll ret = factorial[num];
-    ret = multiply(ret, inverseMod(factorial[num-r]));
-    ret = multiply(ret, inverseMod(factorial[r]));
+ll nCk(ll num, ll kk) {
+    ll ret = facts[num];
+    ret = multiply(ret, inverseMod(facts[num-kk]));
+    ret = multiply(ret, inverseMod(facts[kk]));
     return ret;
 }
 
-void calculateFactorials() {
-    factorial[0] = 1;
-    factorial[1] = 1;
-    For (i, 2, maxn) factorial[i] = multiply(factorial[i-1], i);
-}
-
 void solve() {
-    scl(n);
-    scll(m, k);
+    cin >> n >> m >> k;
     ll freq[n+1];
-    Mem(freq, 0);
-    For (i, 1, n+1) {
+    For (i, 0, n+1) freq[i] = 0;
+    For (i, 1, n+1){
         scl(t);
         freq[t]++;
     }
     ll csFreq[n+1];
-    csFreq[0] = freq[0];
+    csFreq[0] = 0;
     For (i, 1, n+1) csFreq[i] = csFreq[i-1]+freq[i];
 
     ll ways = 0;
-    For (maxNum, 1, n+1) {
-        ll nLessThan = csFreq[maxNum-1]-csFreq[max(0LL,maxNum-k-1)];
-        For (toInclude, 0, freq[maxNum]) {
+    For (maxNum, 1, n+1) { 
+        ll nLessThan = csFreq[maxNum-1]-csFreq[max(0LL, maxNum-1-k)];
+        For(toInclude, 0, freq[maxNum]) {
             if (nLessThan+toInclude < m-1) continue;
-            ways = add(ways, nCr(nLessThan+toInclude, m-1));
+            ways = add(ways, nCk(nLessThan+toInclude, m-1));
         }
     }
 
-    prl(ways);
+    cout << ways << endl;
 }
 
 int main() {
-    calculateFactorials();
+    precalculateFactorials();
     test = 1;
     scl(test);
     while (test--) solve();
