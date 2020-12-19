@@ -51,7 +51,7 @@ void solve() {
         For (i, 0, m) {
             ans = ara[0]+bra[i];
             For (j, 1, n) {
-                ans = __gcd(ans, ara[j]+bra[i]);
+                ans = __gcd(ans, ara[i]+bra[i]);
             }
             printf("%lld ", ans);
         }
