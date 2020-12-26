@@ -5,6 +5,7 @@ using namespace std;
 
 #define ll long long int
 #define dd double
+
 #define scl(x) scanf("%lld", &x)
 #define scll(x, y) scanf("%lld %lld", &x, &y)
 #define scd(x) scanf("%lf", &x)
@@ -44,49 +45,31 @@ ll x, y, z = -1, maxi, mini;
 
 void solve() {
     scll(n, m);
-    ll ara[n+10];
+    ll ara[n+1];
     For (i, 1, n+1) scl(ara[i]);
-
     ll leastPos = -1;
     for (ll i = n; i >= 1; i--) {
-        // printf("~~ %lld %lld\n", i, ara[i]);
         if (ara[i] != i) {
             leastPos = i;
             break;
         }
     }
 
-    dd ans = 1.00;
-
-    if (leastPos == -1) {
-        while(m--) {
-            ll t1;
-            dd t2;
-            cin >> t1 >> t2;
-        }
-        printf("%.6lf\n", ans);
-        return;
-    }
-
     dd notHappeningBefore = 1.00;
-    ans = 0.00;
+    dd ans = 0.00;
 
-    // printf(":: leastPos = %lld\n", leastPos);
-
-    For (i, 1, m+1) {
+    while (m--) {
         ll till;
-        dd probabililty;
-
-        cin >> till >> probabililty;
-
+        dd probablility;
+        scl(till);
+        scd(probablility);
         if (till >= leastPos) {
-            // printf("->ans=%.2lf notHapp=%.2lf pro=%.2lf\n", ans, notHappeningBefore, probabililty);
-            ans += notHappeningBefore*probabililty;
-            notHappeningBefore *= (1-probabililty);
-            // printf("->->ans=%.2lf notHappen=%.2lf pro=%.2lf\n", ans, notHappeningBefore, probabililty);
+            ans += notHappeningBefore*probablility;
+            notHappeningBefore *= (1-probablility);
         }
-
     }
+    
+    if (leastPos == -1) ans = 1.00;
 
     printf("%.6lf\n", ans);
 }
@@ -96,3 +79,4 @@ int main() {
     scl(test);
     while (test--) solve();
 }
+            
