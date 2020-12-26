@@ -29,14 +29,14 @@ using namespace std;
 #define ff first
 #define ss second
 
-#define maxn 200005 ///2x10^5 + 5
-//#define maxn 1000006 ///10^6 + 6
-//#define maxn 1000000009 ///10^9 + 9
+#define maxn 200005LL ///2x10^5 + 5
+//#define maxn 1000006LL ///10^6 + 6
+//#define maxn 1000000009LL ///10^9 + 9
 
 #define pi acos(-1.00)
 #define eps 0.0000000001 ///10^-10
 #define inf LONG_LONG_MAX
-#define mod 1000000007 ///10^9+7
+#define mod 1000000007LL ///10^9+7
 
 ll t, test, temp;
 ll n, m, k, kount;
@@ -45,10 +45,16 @@ ll x, y, z = -1, maxi, mini;
 
 void solve() {
     scll(n, k);
-    For (i, 0, n) {
-        if (i % 3 == 0) printf("a");
-        else if (i % 3 == 1) printf("b");
-        else printf("c");
+    ll kk = k;
+    char ch = 'a';
+    for (ll i = 0; i < n; i++) {
+        printf("%c", ch);
+        kk--;
+        if (kk == 0) {
+            kk = k;
+            ch++;
+            if (ch == 'd') ch = 'a';
+        }
     }
     aNewLine;
 }
