@@ -40,48 +40,47 @@ using namespace std;
 
 ll t, test, temp;
 ll n, m, k, kount;
-ll a, b, c, ans, u, q;
-ll x, y, z = -1, maxi, mini;
+ll a, b, c, ans, u, v;
+ll x, y, z = -1, maxi, mini, nQueries, total;
+ll ara[maxn];
+map<ll, ll> possibleTotals;
 
-vector<ll> v;
-map<ll, ll> possibleAnswers;
-
-void findPossibleAnswers(ll lo, ll hi) {
-    // printf("-> %lld %lld\n", lo, hi);
+void findPossibleTotals(ll lo, ll hi) {
     if (lo > hi) return;
     if (lo == hi) {
-        possibleAnswers[v[lo]] = 1;
+        possibleTotals[ara[lo]] = 1;
         return;
     }
-    ll mid = v[lo]+(v[hi]-v[lo])/2;
+
+    ll mid = ara[lo]+((ara[hi]-ara[lo])>>1);
+
     ll sum = 0;
-    ll secondSegmentStarts = -1;
+    ll secondPortionStarts = -1;
+
     For (i, lo, hi+1) {
-        sum += v[i];
-        if (secondSegmentStarts == -1 and v[i] > mid) 
-            secondSegmentStarts = i;
+        if (secondPortionStarts == -1 and ara[i] > mid) 
+            secondPortionStarts = i;
+        sum += ara[i];
     }
-    possibleAnswers[sum] = 1;
-    if (secondSegmentStarts == -1) return;
-    findPossibleAnswers(lo, secondSegmentStarts-1);
-    findPossibleAnswers(secondSegmentStarts, hi);
+
+    possibleTotals[sum] = 1;
+
+    if (secondPortionStarts == -1) return;
+    if (secondPortionStarts-1 >= 1) findPossibleTotals(lo, secondPortionStarts-1);
+    findPossibleTotals(secondPortionStarts, hi);
 }
 
 void solve() {
-    scll(n, q);
-    v.clear();
-    For (i, 0, n) {
-        scl(t);
-        v.pb(t);
-    }
-    sort(v.begin(), v.end());
-    possibleAnswers.clear();
-    findPossibleAnswers(0, n-1);
-    while(q--) {
-        ll querySum;
-        scl(querySum);
-        if (possibleAnswers.count(querySum)) printf("Yes\n");
-        else printf("No\n");
+    scll(n, nQueries);
+    For (i, 1, n+1) scl(ara[i]);
+    sort(ara+1, ara+n+1);
+    possibleTotals.clear();
+    findPossibleTotals(1, n);
+    while (nQueries--) {
+        ll totalCandidate;
+        scl(totalCandidate);
+        if (possibleTotals.count(totalCandidate)) prYes;
+        else prNo;
     }
 }
 
