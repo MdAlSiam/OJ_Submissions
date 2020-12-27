@@ -60,11 +60,11 @@ void solve() {
         ll ansHere = inf;
         ll opHere = 0;
         ll lastTaken = -1;
-        for (ll j = 1; i*j <= sum; j++) {
-            if (cumSumVals.count(i*j)) {
-                opHere += (cumSumVals[i*j]-lastTaken-1);
-                lastTaken = cumSumVals[i*j];
-                if (i*j == sum) {
+        for (ll j = i; j <= sum; j += i) {
+            if (cumSumVals.count(j)) {
+                opHere += (cumSumVals[j]-lastTaken-1);
+                lastTaken = cumSumVals[j];
+                if (j == sum) {
                     ansHere = opHere;
                     break;
                 }
