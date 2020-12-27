@@ -5,6 +5,7 @@ using namespace std;
 
 #define ll long long int
 #define dd double
+
 #define scl(x) scanf("%lld", &x)
 #define scll(x, y) scanf("%lld %lld", &x, &y)
 #define scd(x) scanf("%lf", &x)
@@ -28,14 +29,14 @@ using namespace std;
 #define ff first
 #define ss second
 
-#define maxn 200005 ///2x10^5 + 5
-//#define maxn 1000006 ///10^6 + 6
-//#define maxn 1000000009 ///10^9 + 9
+#define maxn 200005LL ///2x10^5 + 5
+//#define maxn 1000006LL ///10^6 + 6
+//#define maxn 1000000009LL ///10^9 + 9
 
 #define pi acos(-1.00)
 #define eps 0.0000000001 ///10^-10
 #define inf LONG_LONG_MAX
-#define mod 1000000007 ///10^9+7
+#define mod 1000000007LL ///10^9+7
 
 ll t, test, temp;
 ll n, m, k, kount;
@@ -47,14 +48,12 @@ void solve() {
     ll ara[n];
     For (i, 0, n) scl(ara[i]);
     ll lo = 0, hi = n-1;
-
     while (lo <= hi) {
         if (lo == hi) {
-            printf("%lld ", ara[lo]);
+            printf("%lld", ara[lo]);
+            break;
         }
-        else {
-            printf("%lld %lld ", ara[lo], ara[hi]);
-        }
+        printf("%lld %lld ", ara[lo], ara[hi]);
         lo++;
         hi--;
     }
@@ -63,6 +62,6 @@ void solve() {
 
 int main() {
     test = 1;
-    cin >> test;
+    scl(test);
     while (test--) solve();
 }
