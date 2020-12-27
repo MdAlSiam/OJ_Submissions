@@ -5,6 +5,7 @@ using namespace std;
 
 #define ll long long int
 #define dd double
+
 #define scl(x) scanf("%lld", &x)
 #define scll(x, y) scanf("%lld %lld", &x, &y)
 #define scd(x) scanf("%lf", &x)
@@ -28,40 +29,33 @@ using namespace std;
 #define ff first
 #define ss second
 
-#define maxn 200005 ///2x10^5 + 5
-//#define maxn 1000006 ///10^6 + 6
-//#define maxn 1000000009 ///10^9 + 9
+#define maxn 200005LL ///2x10^5 + 5
+//#define maxn 1000006LL ///10^6 + 6
+//#define maxn 1000000009LL ///10^9 + 9
 
 #define pi acos(-1.00)
 #define eps 0.0000000001 ///10^-10
 #define inf LONG_LONG_MAX
-#define mod 1000000007 ///10^9+7
+#define mod 1000000007LL ///10^9+7
 
 ll t, test, temp;
 ll n, m, k, kount;
 ll a, b, c, ans, u;
 ll x, y, z = -1, maxi, mini;
-
 vector<ll> v;
+bool seen[10];
 
 void solve() {
     scl(n);
-    ll toSubtract = 9;
-
+    Mem(seen, false);
     v.clear();
-
-    bool used[10];
-    Mem(used, false);
-
-    while (n >= 0) {
-        if (n - toSubtract >= 0) {
-            n -= toSubtract;
-            v.pb(toSubtract);
-            used[toSubtract] = true;
+    for (ll candidate = 9; candidate >= 1; candidate--) {
+        if (n - candidate >= 0) {
+            v.pb(candidate);
+            // printf("Pushed->%lld\n", candidate);
+            seen[candidate] = true;
+            n -= candidate;
         }
-        toSubtract--;
-
-        if (toSubtract == 0) break;
     }
 
     if (n > 9) {
@@ -69,25 +63,27 @@ void solve() {
         return;
     }
 
-    if (used[n]) {
+    if (n > 0 and seen[n]) {
         prl(z);
         return;
     }
 
-    if (n != 0 ) {
+    if (n > 0) {
         v.pb(n);
+        // printf("Pushed->%lld\n",n);
+    } 
+
+    sort(v.begin(), v.end());
+
+    for (ll element : v) {
+        printf("%lld", element);
     }
 
-
-
-    for (ll i = v.size() - 1; i >= 0; i--) {
-        printf("%lld", v[i]);
-    }
     aNewLine;
 }
 
 int main() {
     test = 1;
-    cin >> test;
+    scl(test);
     while (test--) solve();
 }
