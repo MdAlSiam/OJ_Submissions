@@ -5,6 +5,7 @@ using namespace std;
 
 #define ll long long int
 #define dd double
+
 #define scl(x) scanf("%lld", &x)
 #define scll(x, y) scanf("%lld %lld", &x, &y)
 #define scd(x) scanf("%lf", &x)
@@ -28,93 +29,56 @@ using namespace std;
 #define ff first
 #define ss second
 
-#define maxn 200005 ///2x10^5 + 5
-//#define maxn 1000006 ///10^6 + 6
-//#define maxn 1000000009 ///10^9 + 9
+#define maxn 200005LL ///2x10^5 + 5
+//#define maxn 1000006LL ///10^6 + 6
+//#define maxn 1000000009LL ///10^9 + 9
 
 #define pi acos(-1.00)
 #define eps 0.0000000001 ///10^-10
 #define inf LONG_LONG_MAX
-#define mod 1000000007 ///10^9+7
+#define mod 1000000007LL ///10^9+7
 
 ll t, test, temp;
 ll n, m, k, kount;
 ll a, b, c, ans, u, v;
 ll x, y, z = -1, maxi, mini;
-map <ll, ll> seenAt;
-ll lastCovered;
+map<ll, ll> cumSumVals; // to the index where that cumsum occured.
 
 void solve() {
     scl(n);
-    ll ara[n+10];
-    ara[0] = 0;
-    For (i, 1, n+1) scl(ara[i]);
-    ll cs[n+10];
-    cs[0] = 0;
-    For (i, 1, n+1) cs[i] = ara[i] + cs[i-1];
     ll sum = 0;
-    For (i, 1, n+1) sum += ara[i];
-    seenAt.clear();
-    For (i, 1, n+1) seenAt[cs[i]] = i;
+    cumSumVals.clear();
+    For (i, 0, n) {
+        scl(t);
+        sum += t;
+        cumSumVals[sum] = i;
+    }
 
     ans = inf;
 
-    For (target, 1, sum+1) {
-        /*
-        seenAt.clear();
-        lastCovered = 0;
-        seenAt[0] = 0;
-        bool gotHere = true;
-        ll ansHere = 0;
-        For (i, 1, n+1) {
-            ll toGet = cs[i]-target;
-            if (toGet < 0) {
-                continue;
-            }
-            if (not seenAt.count(toGet)) {
-                continue;
-            }
-
-            if (seenAt[toGet] != lastCovered) {
-                gotHere = false;
-                break;
-            }
-            else {
-                ansHere += (i-lastCovered-1);
-                lastCovered = i;
-            }
-
-            seenAt[cs[i]] = i;
-        }
-
-        if (lastCovered == n) {
-            ans = min(ans, ansHere);
-        }
-        */
-        ll targetGoesTo = target;
-        ll lastCovered = 0;
+    For (i, 1, sum+1) {
+        ll ansHere = inf;
         ll opHere = 0;
-        while (true) {
-            if (seenAt.count(targetGoesTo)) {
-                opHere += seenAt[targetGoesTo] - lastCovered - 1;
-                lastCovered = seenAt[targetGoesTo];
-                targetGoesTo += target;
+        ll lastTaken = -1;
+        for (ll j = 1; i*j <= sum; j++) {
+            if (cumSumVals.count(i*j)) {
+                opHere += (cumSumVals[i*j]-lastTaken-1);
+                lastTaken = cumSumVals[i*j];
+                if (i*j == sum) {
+                    ansHere = opHere;
+                    break;
+                }
             }
-            else {
-                break;
-            }
+            else break;
         }
-        if (lastCovered == n) {
-            ans = min(ans, opHere);
-        }
+        ans = min(ans, ansHere);
     }
 
-    cout << ans << endl;
-
+    prl(ans);
 }
 
 int main() {
     test = 1;
-    cin >> test;
+    scl(test);
     while (test--) solve();
 }
