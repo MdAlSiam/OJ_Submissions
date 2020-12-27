@@ -5,6 +5,7 @@ using namespace std;
 
 #define ll long long int
 #define dd double
+
 #define scl(x) scanf("%lld", &x)
 #define scll(x, y) scanf("%lld %lld", &x, &y)
 #define scd(x) scanf("%lf", &x)
@@ -28,44 +29,55 @@ using namespace std;
 #define ff first
 #define ss second
 
-#define maxn 200005 ///2x10^5 + 5
-//#define maxn 1000006 ///10^6 + 6
-//#define maxn 1000000009 ///10^9 + 9
+#define maxn 200005LL ///2x10^5 + 5
+//#define maxn 1000006LL ///10^6 + 6
+//#define maxn 1000000009LL ///10^9 + 9
 
 #define pi acos(-1.00)
 #define eps 0.0000000001 ///10^-10
 #define inf LONG_LONG_MAX
-#define mod 1000000007 ///10^9+7
+#define mod 1000000007LL ///10^9+7
 
 ll t, test, temp;
 ll n, m, k, kount;
 ll a, b, c, ans, u, v;
 ll x, y, z = -1, maxi, mini;
+char str[220];
 
 void solve() {
     scl(n);
-    string str;
-    cin >> str;
+    scanf(" %s", str);
+    
+    if (str[0] == '2' and str[1] == '0' and str[2] == '2' and str[3] == '0') {
+        prYes;
+        return;
+    }
 
-    bool Yes = false;
+    if (str[0] == '2' and str[1] == '0' and str[2] == '2' and str[n-1] == '0') {
+        prYes;
+        return;
+    }
 
-    if (str[0] == '2' and str[1] == '0' and str[2] == '2' and str[3] == '0') 
-        Yes = true;
-    if (str[n-4] == '2' and str[n-3] == '0' and str[n-2] == '2' and str[n-1] == '0') 
-        Yes = true;
-    if (str[0] == '2' and str[n-3] == '0' and str[n-2] == '2' and str[n-1] == '0') 
-        Yes = true;
-    if (str[0] == '2' and str[1] == '0' and str[n-2] == '2' and str[n-1] == '0') 
-        Yes = true;
-    if (str[0] == '2' and str[1] == '0' and str[2] == '2' and str[n-1] == '0') 
-        Yes = true;
+    if (str[0] == '2' and str[1] == '0' and str[n-2] == '2' and str[n-1] == '0') {
+        prYes;
+        return;
+    }
 
-    if (Yes) prYes;
-    else prNo;
+    if (str[0] == '2' and str[n-3] == '0' and str[n-2] == '2' and str[n-1] == '0') {
+        prYes;
+        return;
+    }
+
+    if (str[n-4] == '2' and str[n-3] == '0' and str[n-2] == '2' and str[n-1] == '0') {
+        prYes;
+        return;
+    }
+
+    prNo;
 }
 
 int main() {
     test = 1;
-    cin >> test;
+    scl(test);
     while (test--) solve();
 }
