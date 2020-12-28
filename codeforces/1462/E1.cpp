@@ -5,6 +5,7 @@ using namespace std;
 
 #define ll long long int
 #define dd double
+
 #define scl(x) scanf("%lld", &x)
 #define scll(x, y) scanf("%lld %lld", &x, &y)
 #define scd(x) scanf("%lf", &x)
@@ -28,42 +29,40 @@ using namespace std;
 #define ff first
 #define ss second
 
-#define maxn 200005 ///2x10^5 + 5
-//#define maxn 1000006 ///10^6 + 6
-//#define maxn 1000000009 ///10^9 + 9
+#define maxn 200005LL ///2x10^5 + 5
+//#define maxn 1000006LL ///10^6 + 6
+//#define maxn 1000000009LL ///10^9 + 9
 
 #define pi acos(-1.00)
 #define eps 0.0000000001 ///10^-10
 #define inf LONG_LONG_MAX
-#define mod 1000000007 ///10^9+7
+#define mod 1000000007LL ///10^9+7
 
 ll t, test, temp;
 ll n, m, k, kount;
 ll a, b, c, ans, u, v;
 ll x, y, z = -1, maxi, mini;
 
-ll nC2(ll num) {return (num*(num-1))/2;}
+ll nC2(ll num) {
+    return (num*(num-1))/2;
+}
 
 void solve() {
     scl(n);
     ll freq[n+1];
-    ll csFreq[n+1];
-    For (i, 0, n+1) {freq[i] = 0; csFreq[i] = 0;}
+    Mem(freq, 0);
     For (i, 1, n+1) {
         scl(t);
         freq[t]++;
     }
+    ll csFreq[n+1];
     csFreq[0] = 0;
-    For (i, 1, n+1) csFreq[i] = csFreq[i-1] + freq[i];
+    For (i, 1, n+1) csFreq[i] = csFreq[i-1]+freq[i];
 
     ll ways = 0;
-
-    //printf("Got here\n");
-
     For (maxNum, 1, n+1) {
-        ll nLessThan = csFreq[maxNum-1] - csFreq[max(0LL, maxNum-3)] ;
+        ll nLessThan = csFreq[maxNum-1]-csFreq[max(0LL, maxNum-2-1)];
         For (toInclude, 0, freq[maxNum]) {
-            //printf("%lld %lld\n", maxNum, toInclude);
             if (nLessThan+toInclude < 2) continue;
             ways += nC2(nLessThan+toInclude);
         }
