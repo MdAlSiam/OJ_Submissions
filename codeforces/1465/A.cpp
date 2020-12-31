@@ -5,6 +5,7 @@ using namespace std;
 
 #define ll long long int
 #define dd double
+
 #define scl(x) scanf("%lld", &x)
 #define scll(x, y) scanf("%lld %lld", &x, &y)
 #define scd(x) scanf("%lf", &x)
@@ -28,33 +29,28 @@ using namespace std;
 #define ff first
 #define ss second
 
-#define maxn 200005 ///2x10^5 + 5
-//#define maxn 1000006 ///10^6 + 6
-//#define maxn 1000000009 ///10^9 + 9
+#define maxn 200005LL ///2x10^5 + 5
+//#define maxn 1000006LL ///10^6 + 6
+//#define maxn 1000000009LL ///10^9 + 9
 
 #define pi acos(-1.00)
 #define eps 0.0000000001 ///10^-10
 #define inf LONG_LONG_MAX
-#define mod 1000000007 ///10^9+7
+#define mod 1000000007LL ///10^9+7
 
 ll t, test, temp;
 ll n, m, k, kount;
 ll a, b, c, ans, u, v;
 ll x, y, z = -1, maxi, mini;
+string str;
 
 void solve() {
     scl(n);
-    string str;
     cin >> str;
-    kount = 0;
-    for (ll i = n-1; i >= 0; i--) {
-        if (str[i] == ')') kount++;
-        else break;
-    }
-
-    ll rem = n-kount;
-
-    if (kount > rem) prYes;
+    ll lastKount = 0;
+    for (ll i = n-1; i >= 0; i--) if (str[i] == ')') lastKount++; else break;
+    ll remaining = n-lastKount;
+    if (lastKount > remaining) prYes;
     else prNo;
 }
 
