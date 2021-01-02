@@ -69,7 +69,7 @@ void solve() {
         if (deg[index] > 1) pq.push({weights[index], index});
     }
 
-    printf("\n");
+    aNewLine;
 }
 
 int main() {
