@@ -68,17 +68,17 @@ ll bigMod(ll base, ll pow) {
 	 
 ll inverseMod(ll num1) {return bigMod(num1, mod-2);}
 
-ll nCk(ll nn, ll rr) {
-    // if (nn == rr) return 1;
-    // if (rr == 1) return nn;
-    // if (rr == 0) return 1;
-    ll ret = facts[nn];
-    ret = multiply(ret, inverseMod(facts[nn-rr]));
-    ret = multiply(ret, inverseMod(facts[rr]));
-    return ret;
-}
+// ll nCk(ll nn, ll rr) {
+//     if (nn == rr) return 1;
+//     if (rr == 1) return nn;
+//     if (rr == 0) return 1;
+//     ll ret = facts[nn];
+//     ret = multiply(ret, inverseMod(nn-rr));
+//     ret = multiply(ret, inverseMod(rr));
+//     return ret;
+// }
 
-ll nCk_alt(ll n, ll k) {
+ll nCk(ll n, ll k) {
 	return multiply(facts[n], multiply(inverseMod(facts[k]), inverseMod(facts[n-k])));
 }
 
