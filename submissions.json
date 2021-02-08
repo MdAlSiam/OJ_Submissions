@@ -1,4 +1,22 @@
 {
+  "CF106935488": {
+    "contest_id": 609,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\609\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "\u0424\u043b\u0435\u0448-\u043a\u0430\u0440\u0442\u044b",
+    "problem_url": "https://codeforces.com/contest/609/problem/A",
+    "submission_id": "CF106935488",
+    "submission_url": "https://codeforces.com/contest/609/submission/106935488",
+    "tags": [
+      "greedy",
+      "implementation",
+      "sortings",
+      "*800"
+    ],
+    "timestamp": "Feb/09/2021 01:21"
+  },
   "CF106953706": {
     "contest_id": 369,
     "language": "GNU C++17 (64)",
