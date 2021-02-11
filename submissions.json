@@ -1,4 +1,21 @@
 {
+  "CF107107760": {
+    "contest_id": 222,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\222\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Cosmic Tables",
+    "problem_url": "https://codeforces.com/contest/222/problem/B",
+    "submission_id": "CF107107760",
+    "submission_url": "https://codeforces.com/contest/222/submission/107107760",
+    "tags": [
+      "data structures",
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "Feb/11/2021 13:38"
+  },
   "CF107252826": {
     "contest_id": 1485,
     "language": "GNU C++17 (64)",
