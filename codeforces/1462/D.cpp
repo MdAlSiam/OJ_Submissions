@@ -1,0 +1,43 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int test;
+    cin >> test;
+    while (test--) {
+        int n;
+        cin >> n;
+        map<int, int> csPos;
+        csPos.clear();
+        int sum = 0;
+        for (int i = 0; i < n; i++) {
+            int temp;
+            cin >> temp;
+            sum += temp;
+            csPos[sum] = i;
+        }
+
+        int minOps = 1 << 30;
+
+        for (int i = 1; i <= sum; i++) {
+            int opsHere = 0;
+            int lastCountered = -1;
+            int minOpsHere = 1 << 30;
+
+            for (int j = 1; i*j <= sum; j++) {
+                if (csPos.count(i*j)) {
+                    opsHere += csPos[i*j] - lastCountered - 1;
+                    lastCountered = csPos[i*j];
+                    if (csPos[i*j] == n-1) {
+                        // minOpsHere = opsHere;
+                        minOps = min(minOps, opsHere);
+                        break;
+                    }
+                }
+                else break;
+            }
+        }
+
+        cout << minOps << endl;
+    }
+}
