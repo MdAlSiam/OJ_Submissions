@@ -17,12 +17,12 @@ int main() {
             csPos[sum] = i;
         }
 
-        int minOps = 1 << 30;
+        int minOps = 100000;
 
         for (int i = 1; i <= sum; i++) {
             int opsHere = 0;
             int lastCountered = -1;
-            int minOpsHere = 1 << 30;
+            int minOpsHere = 100000;
 
             for (int j = 1; i*j <= sum; j++) {
                 if (csPos.count(i*j)) {
