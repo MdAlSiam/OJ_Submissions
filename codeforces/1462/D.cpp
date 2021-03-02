@@ -28,14 +28,15 @@ int main() {
                 if (csPos.count(i*j)) {
                     opsHere += csPos[i*j] - lastCountered - 1;
                     lastCountered = csPos[i*j];
-                    if (csPos[i*j] == n-1) {
-                        // minOpsHere = opsHere;
-                        minOps = min(minOps, opsHere);
+                    if (i*j == sum) {
+                        minOpsHere = opsHere;
                         break;
                     }
                 }
                 else break;
             }
+
+            minOps = min(minOps, minOpsHere);
         }
 
         cout << minOps << endl;
