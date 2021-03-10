@@ -64,7 +64,7 @@ void solve() {
                 oneSum++;
             }
 
-            ara[b-1] = !ara[b-1];
+            ara[b-1] = not ara[b-1];
         }
         else {
             if (oneSum >= b) prl(-z);
