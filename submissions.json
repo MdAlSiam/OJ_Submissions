@@ -1,4 +1,20 @@
 {
+  "CF109920520": {
+    "contest_id": 379,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\379\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "New Year Candles",
+    "problem_url": "https://codeforces.com/contest/379/problem/A",
+    "submission_id": "CF109920520",
+    "submission_url": "https://codeforces.com/contest/379/submission/109920520",
+    "tags": [
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "Mar/14/2021 01:14"
+  },
   "CF110058229": {
     "contest_id": 1496,
     "language": "GNU C++17 (64)",
