@@ -1,4 +1,23 @@
 {
+  "CF110185286": {
+    "contest_id": 1497,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\1497\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Meximization",
+    "problem_url": "https://codeforces.com/contest/1497/problem/A",
+    "submission_id": "CF110185286",
+    "submission_url": "https://codeforces.com/contest/1497/submission/110185286",
+    "tags": [
+      "brute force",
+      "data structures",
+      "greedy",
+      "sortings",
+      "*800"
+    ],
+    "timestamp": "Mar/17/2021 20:40"
+  },
   "CF110217458": {
     "contest_id": 1497,
     "language": "GNU C++17 (64)",
