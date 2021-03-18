@@ -38,21 +38,28 @@ using namespace std;
 
 ll t, test, temp;
 ll n, m, k, kount;
-ll a, b, c, ans, u, v, w;
-ll x, y, z = -1, maxi, mini, k1, k2;
+ll a, b, c, ans, u, v;
+ll x, y, z = -1, maxi, mini;
 
 ll ara[maxn];
 string str;
 
 void solve() {
-    scl(n); 
-    scll(k1, k2);
-    scll(w, b);
+    scl(n);
+    ll white1, white2;
+    scll(white1, white2);
+    scll(x, y);
 
-    ll w_poss = min(k1, k2) + (max(k1, k2)-min(k1, k2))/2;
-    ll b_poss = min(n-k1, n-k2) + (max(n-k1, n-k2)-min(n-k1, n-k2))/2;
+    ll t1 = min(white1, white2)+ (max(white1, white2)-min(white1, white2))/2;
+    ll t2 = white1/2+white2/2;
 
-    if (w <= w_poss and b <= b_poss) prYes;
+    ll black1 = n-white1;
+    ll black2 = n-white2;
+
+    ll t3 = min(black1, black2)+ (max(black1, black2)-min(black1, black2))/2;
+    ll t4 = black1/2+black2/2;
+
+    if ((x <= t1 or x <= t2) and (y <= t3 or y <= t4)) prYes;
     else prNo;
 } 
 
