@@ -46,26 +46,16 @@ string str;
 
 void solve() {
     cin >> str;
-    ll lastCutIndex = -1;
-    bool encountered11 = false;
-
+    bool encontered11 = false;
+    ll lastcut = -1;
+    bool yes = true;
     For (i, 1, str.length()) {
-        if (str[i] == str[i-1] and str[i] == '1') {
-            encountered11 = true;
-            lastCutIndex = i-1;
-        }
-        else if (encountered11 and str[i] == '0') {
-            if (lastCutIndex+1 < i) {
-                lastCutIndex = i;
-            }
-            else {
-                prNo;
-                return;
-            }
-        }
+        if (str[i] == str[i-1] and str[i] == '1') {encontered11 = true; lastcut = i-1; continue;}
+        if (encontered11 and str[i] == '0' and lastcut+1==i) yes = false;
+        else if (encontered11 and str[i] == '0') lastcut = i;
     }
-
-    prYes;
+    if (yes) prYes;
+    else prNo;
 } 
 
 int32_t main() {
