@@ -1,4 +1,21 @@
 {
+  "CF111099944": {
+    "contest_id": 122,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\122\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Lucky Substring",
+    "problem_url": "https://codeforces.com/contest/122/problem/B",
+    "submission_id": "CF111099944",
+    "submission_url": "https://codeforces.com/contest/122/submission/111099944",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "Mar/26/2021 11:52"
+  },
   "CF111655218": {
     "contest_id": 1505,
     "language": "GNU C++17 (64)",
