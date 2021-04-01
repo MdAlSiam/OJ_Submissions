@@ -1,1 +1,1 @@
-for i in range(9): print("NO")
+for i in range(100): print("NO")
