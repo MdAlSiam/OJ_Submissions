@@ -109,7 +109,15 @@ void solve2() {
         }
     }
 
-    cout << ans+op1 << endl;
+    lastTaken = v[v.size()-1];
+    for (ll i = v.size()-2; i >= 0; i--) {
+        if (lastTaken-v[i] > k) {
+            op2++;
+            lastTaken = v[i+1];
+        }
+    }
+
+    cout << ans+min(op1, op2) << endl;
 }
 
 int32_t main() {
