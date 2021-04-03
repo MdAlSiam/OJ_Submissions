@@ -42,14 +42,14 @@ ll a, b, c, ans, u, v;
 ll x, y, z = -1, maxi, mini;
 
 ll ara[maxn];
-string str, candidate1, candidate2;
+string str;
 
 bool isPalindrome(string palin) {
-    ll lo = 0, hi = palin.length()-1;
-    while (lo < hi) {
-        if (palin[lo] != palin[hi]) {
-            return false;
-        }
+    ll lo = 0;
+    ll hi = palin.length()-1;
+
+    while (lo <= hi) {
+        if (palin[lo] != palin[hi]) return false;
         lo++;
         hi--;
     }
@@ -58,9 +58,11 @@ bool isPalindrome(string palin) {
 }
 
 void solve() {
+    scl(n);
     cin >> str;
-    candidate1 = "a"+str;
-    candidate2 = str+"a";
+    string candidate1 = "a"+str;
+    string candidate2 = str+"a";
+
     if (not isPalindrome(candidate1)) {
         prYes;
         cout << candidate1 << endl;
@@ -69,9 +71,7 @@ void solve() {
         prYes;
         cout << candidate2 << endl;
     }
-    else {
-        prNo;
-    }
+    else prNo;
 } 
 
 int32_t main() {
