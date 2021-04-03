@@ -40,35 +40,72 @@ ll t, test, temp;
 ll n, m, k, kount;
 ll a, b, c, ans, u, v;
 ll x, y, z = -1, maxi, mini;
-ll bitKount[2];
 
 ll ara[maxn];
 string str1, str2;
 
 void solve() {
-    scl(n);
+
+    cin >> n;
     cin >> str1;
     cin >> str2;
-    str1 += '#';
-    str2 += '#';
-    bitKount[0] = bitKount[1] = 0;
-    For (i, 0, str1.length()-1) {
-        bitKount[str1[i]-'0']++;
-        if (str1[i] != str2[i] and str1[i+1] == str2[i+1]) {
-            // printf("+ %lld %lld %lld\n", i, bitKount[0], bitKount[1]);
-            if (bitKount[0] != bitKount[1]) {
-                prNo;
-                return;
-            }
-        }
-        else if (str1[i] == str2[i] and str1[i+1] != str2[i+1]) {
-            // printf("! %lld %lld %lld\n", i, bitKount[0], bitKount[1]);
-            if (bitKount[0] != bitKount[1]) {
-                prNo;
-                return;
-            }
+
+    ll d0 = 0;
+    ll d1 = 0;
+
+    ll first = -1, last = -1;
+    for (ll i = 0; i < n; i++) {
+        if (str1[i] != str2[i]) {
+            first = i;
+            break;
         }
     }
+
+    for (ll i = n-1; i >= 0; i--) {
+        if (str1[i] != str2[i]) {
+            last = i;
+            break;
+        }
+    }
+
+    if (first == -1) {
+        prYes;
+        return;
+    }
+
+    // if (first == last) {
+    //     prNo;
+    //     return;
+    // }
+
+    For (i, 0, n) {
+        if (str1[i] == str2[i]) {
+            if (str1[i] == '0') d0++;
+            else d1++;
+            if (i+1 < n and str1[i+1] != str2[i+1])  {
+                if (d0 != d1 or d0==0 or d1==0) {
+                    prNo;
+                    return;
+                }
+                d0 = 0;
+                d1 = 0;
+            }
+            continue;
+        }
+
+        if (str1[i] == '0' and str2[i] == '1') d0++;
+        else if (str1[i] == '1' and str2[i] == '0') d1++;       
+
+        if ((i+1 == n) or (i+1 < n and str1[i+1] == str2[i+1]))  {
+            if (d0 != d1 or d0==0 or d1==0) {
+                prNo;
+                return;
+            }
+            d0 = 0;
+            d1 = 0;
+        }
+    }
+
     prYes;
 } 
 
