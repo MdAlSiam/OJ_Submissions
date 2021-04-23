@@ -83,8 +83,6 @@ void precalculate() {
 }
 
 void solve() {
-    precalculate();
-
     scll(a, b);
     scl(c);
 
@@ -105,6 +103,7 @@ void solve() {
 } 
 
 int32_t main() {
+    precalculate();
     test = 1;
     scl(test);
     while (test--) solve();
