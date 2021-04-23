@@ -65,7 +65,9 @@ void precalculate() {
     while (true) {
         ll nDigits = nDigitsCalc(n1);
         if (nDigits > 10) break;
-        numberWithDigitsWith3[nDigits] = n1;
+        if (numberWithDigitsWith3[nDigits] == -1) {
+            numberWithDigitsWith3[nDigits] = n1;
+        }
         n1 *= 3;
     }
 
@@ -73,7 +75,9 @@ void precalculate() {
     while (true) {
         ll nDigits = nDigitsCalc(n2);
         if (nDigits > 10)  break;
-        numberWithDigitsWith5[nDigits] = n2;
+        if (numberWithDigitsWith5[nDigits] == -1) {
+            numberWithDigitsWith5[nDigits] = n2;
+        }
         n2 *= 5;
     }
 }
