@@ -82,7 +82,7 @@ int32_t main() {
 
         bool toContinue = false;
         
-        for (int i = 1; i < n; i++) {
+        for (int i = 2; i < n; i++) {
             int andVal = ara[i] & ara[1];
             if (andVal != ara[1]) {
                 cout << 0 << endl;
