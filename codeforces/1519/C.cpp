@@ -109,7 +109,7 @@ void solve() {
         cout << answers[i] << " ";
     }
 
-    // aNewLine;
+    aNewLine;
 } 
 
 int32_t main() {
