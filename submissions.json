@@ -1,4 +1,20 @@
 {
+  "CF115125972": {
+    "contest_id": 39,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\39\\H.cpp",
+    "platform": "Codeforces",
+    "problem_index": "H",
+    "problem_name": "Multiplication Table",
+    "problem_url": "https://codeforces.com/contest/39/problem/H",
+    "submission_id": "CF115125972",
+    "submission_url": "https://codeforces.com/contest/39/submission/115125972",
+    "tags": [
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "May/04/2021 21:06"
+  },
   "CF115150379": {
     "contest_id": 276,
     "language": "GNU C++17 (64)",
