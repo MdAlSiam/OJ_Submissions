@@ -1,4 +1,20 @@
 {
+  "CF115199088": {
+    "contest_id": 241,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\241\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Old Peykan",
+    "problem_url": "https://codeforces.com/contest/241/problem/A",
+    "submission_id": "CF115199088",
+    "submission_url": "https://codeforces.com/contest/241/submission/115199088",
+    "tags": [
+      "greedy",
+      "*1300"
+    ],
+    "timestamp": "May/05/2021 17:44"
+  },
   "CF115212168": {
     "contest_id": 1159,
     "language": "GNU C++17 (64)",
