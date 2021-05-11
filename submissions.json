@@ -1,4 +1,20 @@
 {
+  "CF115973629": {
+    "contest_id": 639,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\639\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Bear and Displayed Friends",
+    "problem_url": "https://codeforces.com/contest/639/problem/A",
+    "submission_id": "CF115973629",
+    "submission_url": "https://codeforces.com/contest/639/submission/115973629",
+    "tags": [
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "May/12/2021 01:19"
+  },
   "CF116021310": {
     "contest_id": 1513,
     "language": "GNU C++17 (64)",
