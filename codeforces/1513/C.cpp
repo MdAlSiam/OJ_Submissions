@@ -3,8 +3,6 @@ using namespace std;
 
 #define mod 1000000007
 
-#define fastio std::ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
-
 int nTest;
 int tab[200005][10];
 int num;
@@ -35,16 +33,14 @@ void make_table() {
 }
 
 int main() {
-    fastio;
-
-    cin >> nTest;
-    // scanf("%d", &nTest);
+    // cin >> nTest;
+    scanf("%d", &nTest);
 
     make_table();
 
     while (nTest--) {
-        cin >> num >> nOps;
-        // scanf("%d %d", &num, &nOps);
+        // cin >> num >> nOps;
+        scanf("%d %d", &num, &nOps);
 
         ans = 0;
 
@@ -53,7 +49,7 @@ int main() {
             num /= 10;
         }
 
-        cout << ans << endl;
-        // printf("%d\n", ans);
+        // cout << ans << endl;
+        printf("%d\n", ans);
     }
 }
