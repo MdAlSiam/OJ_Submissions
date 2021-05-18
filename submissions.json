@@ -1,4 +1,20 @@
 {
+  "CF116598897": {
+    "contest_id": 6,
+    "language": "PyPy 3",
+    "path": "codeforces\\6\\B.py",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "President's Office",
+    "problem_url": "https://codeforces.com/contest/6/problem/B",
+    "submission_id": "CF116598897",
+    "submission_url": "https://codeforces.com/contest/6/submission/116598897",
+    "tags": [
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "May/19/2021 01:21"
+  },
   "CF116599916": {
     "contest_id": 6,
     "language": "PyPy 3",
