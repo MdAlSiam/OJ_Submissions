@@ -1,4 +1,21 @@
 {
+  "CF116599916": {
+    "contest_id": 6,
+    "language": "PyPy 3",
+    "path": "codeforces\\6\\C.py",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Alice, Bob and Chocolate",
+    "problem_url": "https://codeforces.com/contest/6/problem/C",
+    "submission_id": "CF116599916",
+    "submission_url": "https://codeforces.com/contest/6/submission/116599916",
+    "tags": [
+      "greedy",
+      "two pointers",
+      "*1200"
+    ],
+    "timestamp": "May/19/2021 01:39"
+  },
   "CF116684148": {
     "contest_id": 3,
     "language": "PyPy 3",
