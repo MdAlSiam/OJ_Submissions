@@ -1,13 +1,15 @@
 lines = []
-maxlen = -1
 
 while True:
     try:
         line = input()
         lines.append(line)
-        maxlen = max(len(line), maxlen)
     except:
-        break   
+        break
+
+maxlen = -1
+for line in lines:
+    maxlen = max(len(line), maxlen)
 
 firstLess = True
 
