@@ -12,8 +12,8 @@ for i in range(n):
 
 adj_list = []
 
-for i in range(n):
-    for j in range(k):
+for i in range(len(lines)):
+    for j in range(len(lines[i])):
         if lines[i][j] == pChar:
             if i-1 >= 0 and i-1 < n and j >= 0 and j < k and lines[i-1][j] not in ['.', pChar]: adj_list.append(lines[i-1][j])
             if i+1 >= 0 and i+1 < n and j >= 0 and j < k and lines[i+1][j] not in ['.', pChar]: adj_list.append(lines[i+1][j])
