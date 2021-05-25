@@ -1,4 +1,22 @@
 {
+  "CF117351359": {
+    "contest_id": 16,
+    "language": "PyPy 3",
+    "path": "codeforces\\16\\B.py",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Burglar and Matches",
+    "problem_url": "https://codeforces.com/contest/16/problem/B",
+    "submission_id": "CF117351359",
+    "submission_url": "https://codeforces.com/contest/16/submission/117351359",
+    "tags": [
+      "greedy",
+      "implementation",
+      "sortings",
+      "*900"
+    ],
+    "timestamp": "May/26/2021 00:34"
+  },
   "CF117525439": {
     "contest_id": 31,
     "language": "PyPy 3",
