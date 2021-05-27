@@ -1,4 +1,22 @@
 {
+  "CF117527461": {
+    "contest_id": 31,
+    "language": "PyPy 3",
+    "path": "codeforces\\31\\B.py",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Sysadmin Bob",
+    "problem_url": "https://codeforces.com/contest/31/problem/B",
+    "submission_id": "CF117527461",
+    "submission_url": "https://codeforces.com/contest/31/submission/117527461",
+    "tags": [
+      "greedy",
+      "implementation",
+      "strings",
+      "*1500"
+    ],
+    "timestamp": "May/28/2021 00:11"
+  },
   "CF117552200": {
     "contest_id": 66,
     "language": "PyPy 3",
