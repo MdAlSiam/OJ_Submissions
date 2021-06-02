@@ -1,4 +1,21 @@
 {
+  "CF118221399": {
+    "contest_id": 69,
+    "language": "PyPy 3",
+    "path": "codeforces\\69\\B.py",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Bets",
+    "problem_url": "https://codeforces.com/contest/69/problem/B",
+    "submission_id": "CF118221399",
+    "submission_url": "https://codeforces.com/contest/69/submission/118221399",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Jun/03/2021 00:16"
+  },
   "CF118223726": {
     "contest_id": 70,
     "language": "PyPy 3",
