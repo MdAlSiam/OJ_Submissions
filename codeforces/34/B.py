@@ -2,7 +2,6 @@ n, m = map(int, input().split())
 
 ara = list(map(int, input().split(" ")))
 
-'''
 def merge_sort(lo, hi):
     if (lo == hi):
         return;
@@ -46,11 +45,8 @@ def merge_sort(lo, hi):
         kk += 1
 
 merge_sort(0, n-1)
-'''
 
 # print(ara)
-
-ara.sort()
 
 ans = 0
 
