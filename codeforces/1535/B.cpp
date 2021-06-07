@@ -90,8 +90,8 @@ void solve() {
         if (ara[i]%2) ara[i] += 100000;
     }
     
-    // merge_sort(ara, 0, n-1);
-    sort(ara, ara+n);
+    merge_sort(ara, 0, n-1);
+    // sort(ara, ara+n);
 
     For (i, 0, n) {
         if (ara[i]%2) ara[i] -= 100000;
@@ -101,7 +101,7 @@ void solve() {
 
     for (ll i = n-1; i >= 0; i--) {
         for (ll j = i-1; j >= 0; j--) {
-            if (__gcd(2*ara[i], ara[j]) > 1) {
+            if (gcd(2*ara[i], ara[j]) > 1) {
                 ans++;
             }
         }
