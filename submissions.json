@@ -1,4 +1,25 @@
 {
+  "CF119874904": {
+    "contest_id": 1535,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\1535\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Unstable String",
+    "problem_url": "https://codeforces.com/contest/1535/problem/C",
+    "submission_id": "CF119874904",
+    "submission_url": "https://codeforces.com/contest/1535/submission/119874904",
+    "tags": [
+      "binary search",
+      "dp",
+      "greedy",
+      "implementation",
+      "strings",
+      "two pointers",
+      "*1400"
+    ],
+    "timestamp": "Jun/18/2021 21:51"
+  },
   "CF119950730": {
     "contest_id": 23,
     "language": "GNU C++17 (64)",
