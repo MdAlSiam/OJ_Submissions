@@ -1,4 +1,21 @@
 {
+  "CF119950730": {
+    "contest_id": 23,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\23\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "You're Given a String...",
+    "problem_url": "https://codeforces.com/contest/23/problem/A",
+    "submission_id": "CF119950730",
+    "submission_url": "https://codeforces.com/contest/23/submission/119950730",
+    "tags": [
+      "brute force",
+      "greedy",
+      "*1200"
+    ],
+    "timestamp": "Jun/19/2021 11:24"
+  },
   "CF120007330": {
     "contest_id": 4,
     "language": "GNU C++17 (64)",
