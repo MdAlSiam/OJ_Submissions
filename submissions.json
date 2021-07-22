@@ -1,4 +1,17 @@
 {
+  "CF123345805": {
+    "contest_id": 24,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\24\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "F1 Champions",
+    "problem_url": "https://codeforces.com/contest/24/problem/B",
+    "submission_id": "CF123345805",
+    "submission_url": "https://codeforces.com/contest/24/submission/123345805",
+    "tags": [],
+    "timestamp": "Jul/22/2021 22:46"
+  },
   "CF123389183": {
     "contest_id": 24,
     "language": "GNU C++17 (64)",

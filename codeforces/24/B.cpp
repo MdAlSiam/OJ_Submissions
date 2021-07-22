@@ -24,7 +24,7 @@ bool compare1(node a, node b) {
             return a.ci[i] > b.ci[i];
         }
     }
-    // return a.ci[0] < b.ci[0];
+    return a.ci[0] < b.ci[0];
 }
 
 bool compare2(node a, node b) {
@@ -35,7 +35,7 @@ bool compare2(node a, node b) {
             return a.ci[i] > b.ci[i];
         }
     }
-    // return a.ci[0] < b.ci[0];
+    return a.ci[0] < b.ci[0];
 }
 
 int main() {
