@@ -1,4 +1,21 @@
 {
+  "CF123994362": {
+    "contest_id": 1551,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\1551\\D1.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D1",
+    "problem_name": "Domino (easy version)",
+    "problem_url": "https://codeforces.com/contest/1551/problem/D1",
+    "submission_id": "CF123994362",
+    "submission_url": "https://codeforces.com/contest/1551/submission/123994362",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "*1700"
+    ],
+    "timestamp": "Jul/28/2021 11:38"
+  },
   "CF124131564": {
     "contest_id": 1554,
     "language": "GNU C++17 (64)",
