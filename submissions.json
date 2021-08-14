@@ -1,4 +1,23 @@
 {
+  "CF125811884": {
+    "contest_id": 1554,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\1554\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Cobb",
+    "problem_url": "https://codeforces.com/contest/1554/problem/B",
+    "submission_id": "CF125811884",
+    "submission_url": "https://codeforces.com/contest/1554/submission/125811884",
+    "tags": [
+      "bitmasks",
+      "brute force",
+      "greedy",
+      "math",
+      "*1700"
+    ],
+    "timestamp": "Aug/14/2021 09:37"
+  },
   "CF125873094": {
     "contest_id": 492,
     "language": "GNU C++17 (64)",
