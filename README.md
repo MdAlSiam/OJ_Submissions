@@ -13,6 +13,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+808 | [B - Little Pony and Sort by Shift](https://codeforces.com/contest/454/problem/B) | [GNU C++17 (64)](./codeforces/454/B.cpp) | `implementation` `*1200` | Sep/23/2021 03:09 | 
 807 | [B - DZY Loves Strings](https://codeforces.com/contest/447/problem/B) | [GNU C++17 (64)](./codeforces/447/B.cpp) | `greedy` `implementation` `*1000` | Sep/19/2021 15:36 | 
 806 | [A - Presents](https://codeforces.com/contest/136/problem/A) | [GNU C++17 (64)](./codeforces/136/A.cpp) | `implementation` `*800` | Sep/19/2021 13:10 | 
 805 | [A - Chat room](https://codeforces.com/contest/58/problem/A) | [GNU C++17 (64)](./codeforces/58/A.cpp) | `greedy` `strings` `*1000` | Sep/18/2021 00:43 | 
