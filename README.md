@@ -13,8 +13,9 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-811 | [C - Ticks](https://codeforces.com/contest/1579/problem/C) | [GNU C++17 (64)](./codeforces/1579/C.cpp) | `greedy` `implementation` `*1500` | Oct/09/2021 00:23 | 
-810 | [B - Shifting Sort](https://codeforces.com/contest/1579/problem/B) | [GNU C++17 (64)](./codeforces/1579/B.cpp) | `implementation` `sortings` `*1100` | Oct/06/2021 18:08 | 
+812 | [C - Ticks](https://codeforces.com/contest/1579/problem/C) | [GNU C++17 (64)](./codeforces/1579/C.cpp) | `greedy` `implementation` `*1500` | Oct/09/2021 00:23 | 
+811 | [B - Shifting Sort](https://codeforces.com/contest/1579/problem/B) | [GNU C++17 (64)](./codeforces/1579/B.cpp) | `implementation` `sortings` `*1100` | Oct/06/2021 18:08 | 
+810 | [A - Casimir's String Solitaire](https://codeforces.com/contest/1579/problem/A) | [GNU C++17 (64)](./codeforces/1579/A.cpp) | `math` `strings` `*800` | Oct/05/2021 01:31 | 
 809 | [B - Little Pony and Sort by Shift](https://codeforces.com/contest/454/problem/B) | [GNU C++17 (64)](./codeforces/454/B.cpp) | `implementation` `*1200` | Sep/23/2021 03:09 | 
 808 | [B - Amr and Pins](https://codeforces.com/contest/507/problem/B) | [GNU C++17 (64)](./codeforces/507/B.cpp) | `geometry` `math` `*1400` | Sep/23/2021 02:49 | 
 807 | [B - DZY Loves Strings](https://codeforces.com/contest/447/problem/B) | [GNU C++17 (64)](./codeforces/447/B.cpp) | `greedy` `implementation` `*1000` | Sep/19/2021 15:36 | 
