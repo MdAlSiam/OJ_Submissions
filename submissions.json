@@ -4512,6 +4512,22 @@
     ],
     "timestamp": "Oct/09/2021 00:23"
   },
+  "CF133190228": {
+    "contest_id": 1593,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\1593\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Elections",
+    "problem_url": "https://codeforces.com/contest/1593/problem/A",
+    "submission_id": "CF133190228",
+    "submission_url": "https://codeforces.com/contest/1593/submission/133190228",
+    "tags": [
+      "math",
+      "*800"
+    ],
+    "timestamp": "Oct/27/2021 00:16"
+  },
   "CF133191918": {
     "contest_id": 1593,
     "language": "GNU C++17 (64)",
