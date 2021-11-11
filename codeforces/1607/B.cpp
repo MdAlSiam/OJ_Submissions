@@ -98,8 +98,7 @@ void solve() {
 void solve2() {
     scll(x, n);
 
-    ll delX[4] = {0, 0, 0, 0};
-    ll inits[4];
+    ll delX[4];
     ll shift;
 
     For (i, 1, 9) {
@@ -109,18 +108,7 @@ void solve2() {
         else {
             shift = i;
         }
-
-        x += shift;
-
-        if (i > 4) delX[i%4] = x-inits[i%4];
-
-        if (i == 4) inits[0] = x;
-        if (i < 4)  inits[i] = x;
     }
-
-    ans = inits[n%4]+(n/4)*delX[n%4];
-
-    prl(ans);
 }
  
 int32_t main() {
@@ -129,5 +117,5 @@ int32_t main() {
     test = 1;
     kase = 0;
     scl(test);
-    while (test--) solve2();
+    while (test--) solve();
 }
