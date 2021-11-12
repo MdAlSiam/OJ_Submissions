@@ -6,13 +6,13 @@ Submissions
 
 A repository to keep track of problem solving practice, containing solutions from platforms:
 * Codeforces &nbsp; [![Codeforces](https://run.kaist.ac.kr/badges/codeforces/_siummy.svg)](https://codeforces.com/profile/_siummy)
-* AtCoder &nbsp; [![AtCoder](https://run.kaist.ac.kr/badges/atcoder/Md_Al_Siam.svg)](https://atcoder.jp/users/Md_Al_Siam)
 
 
 ## Contents
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+813 | [D - Blue-Red Permutation](https://codeforces.com/contest/1607/problem/D) | [GNU C++17 (64)](./codeforces/1607/D.cpp) | `greedy` `math` `sortings` `*1300` | Nov/12/2021 08:35 | 
 812 | [C - Ticks](https://codeforces.com/contest/1579/problem/C) | [GNU C++17 (64)](./codeforces/1579/C.cpp) | `greedy` `implementation` `*1500` | Oct/09/2021 00:23 | 
 811 | [B - Shifting Sort](https://codeforces.com/contest/1579/problem/B) | [GNU C++17 (64)](./codeforces/1579/B.cpp) | `implementation` `sortings` `*1100` | Oct/06/2021 18:08 | 
 810 | [A - Casimir's String Solitaire](https://codeforces.com/contest/1579/problem/A) | [GNU C++17 (64)](./codeforces/1579/A.cpp) | `math` `strings` `*800` | Oct/05/2021 01:31 | 
