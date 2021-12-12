@@ -12,13 +12,14 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-830 | [A - Distance](https://codeforces.com/contest/1612/problem/A) | [GNU C++17 (64)](./codeforces/1612/A.cpp) | `brute force` `constructive algorithms` `*800` | Jan/14/2022 12:03 | 
-829 | [A - Integer Diversity](https://codeforces.com/contest/1616/problem/A) | [GNU C++17 (64)](./codeforces/1616/A.cpp) | `implementation` `*800` | Jan/05/2022 21:25 | 
-828 | [B - Mirror in the String](https://codeforces.com/contest/1616/problem/B) | [GNU C++17 (64)](./codeforces/1616/B.cpp) | `greedy` `strings` `*1100` | Jan/05/2022 19:58 | 
-827 | [C - Representative Edges](https://codeforces.com/contest/1616/problem/C) | [GNU C++17 (64)](./codeforces/1616/C.cpp) | `brute force` `geometry` `implementation` `math` `*1500` | Jan/05/2022 19:39 | 
-826 | [B - Integers Shop](https://codeforces.com/contest/1621/problem/B) | [GNU C++17 (64)](./codeforces/1621/B.cpp) | `data structures` `greedy` `implementation` `*1500` | Jan/04/2022 17:45 | 
-825 | [A - Stable Arrangement of Rooks](https://codeforces.com/contest/1621/problem/A) | [GNU C++17 (64)](./codeforces/1621/A.cpp) | `constructive algorithms` `*800` | Jan/03/2022 20:46 | 
-824 | [C - Minimize Distance](https://codeforces.com/contest/1591/problem/C) | [GNU C++17 (64)](./codeforces/1591/C.cpp) | `greedy` `math` `*1300` | Dec/12/2021 22:02 | 
+831 | [A - Distance](https://codeforces.com/contest/1612/problem/A) | [GNU C++17 (64)](./codeforces/1612/A.cpp) | `brute force` `constructive algorithms` `*800` | Jan/14/2022 12:03 | 
+830 | [A - Integer Diversity](https://codeforces.com/contest/1616/problem/A) | [GNU C++17 (64)](./codeforces/1616/A.cpp) | `implementation` `*800` | Jan/05/2022 21:25 | 
+829 | [B - Mirror in the String](https://codeforces.com/contest/1616/problem/B) | [GNU C++17 (64)](./codeforces/1616/B.cpp) | `greedy` `strings` `*1100` | Jan/05/2022 19:58 | 
+828 | [C - Representative Edges](https://codeforces.com/contest/1616/problem/C) | [GNU C++17 (64)](./codeforces/1616/C.cpp) | `brute force` `geometry` `implementation` `math` `*1500` | Jan/05/2022 19:39 | 
+827 | [B - Integers Shop](https://codeforces.com/contest/1621/problem/B) | [GNU C++17 (64)](./codeforces/1621/B.cpp) | `data structures` `greedy` `implementation` `*1500` | Jan/04/2022 17:45 | 
+826 | [A - Stable Arrangement of Rooks](https://codeforces.com/contest/1621/problem/A) | [GNU C++17 (64)](./codeforces/1621/A.cpp) | `constructive algorithms` `*800` | Jan/03/2022 20:46 | 
+825 | [C - Minimize Distance](https://codeforces.com/contest/1591/problem/C) | [GNU C++17 (64)](./codeforces/1591/C.cpp) | `greedy` `math` `*1300` | Dec/12/2021 22:02 | 
+824 | [B - Array Eversion](https://codeforces.com/contest/1591/problem/B) | [GNU C++17 (64)](./codeforces/1591/B.cpp) | `greedy` `*900` | Dec/12/2021 21:36 | 
 823 | [D - Blue-Red Permutation](https://codeforces.com/contest/1607/problem/D) | [GNU C++17 (64)](./codeforces/1607/D.cpp) | `greedy` `math` `sortings` `*1300` | Nov/12/2021 08:35 | 
 822 | [C - Minimum Extraction](https://codeforces.com/contest/1607/problem/C) | [GNU C++17 (64)](./codeforces/1607/C.cpp) | `brute force` `sortings` `*1000` | Nov/11/2021 23:48 | 
 821 | [B - Odd Grasshopper](https://codeforces.com/contest/1607/problem/B) | [GNU C++17 (64)](./codeforces/1607/B.cpp) | `math` `*900` | Nov/11/2021 23:25 | 
