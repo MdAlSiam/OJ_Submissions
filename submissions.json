@@ -4719,6 +4719,22 @@
     ],
     "timestamp": "Nov/12/2021 08:35"
   },
+  "CF141505044": {
+    "contest_id": 1621,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\1621\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Stable Arrangement of Rooks",
+    "problem_url": "https://codeforces.com/contest/1621/problem/A",
+    "submission_id": "CF141505044",
+    "submission_url": "https://codeforces.com/contest/1621/submission/141505044",
+    "tags": [
+      "constructive algorithms",
+      "*800"
+    ],
+    "timestamp": "Jan/03/2022 20:46"
+  },
   "CF141636342": {
     "contest_id": 1621,
     "language": "GNU C++17 (64)",
