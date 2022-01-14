@@ -4719,6 +4719,23 @@
     ],
     "timestamp": "Nov/12/2021 08:35"
   },
+  "CF142665304": {
+    "contest_id": 1612,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\1612\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Distance",
+    "problem_url": "https://codeforces.com/contest/1612/problem/A",
+    "submission_id": "CF142665304",
+    "submission_url": "https://codeforces.com/contest/1612/submission/142665304",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "*800"
+    ],
+    "timestamp": "Jan/14/2022 12:03"
+  },
   "CF27557978": {
     "contest_id": 118,
     "language": "GNU C",
