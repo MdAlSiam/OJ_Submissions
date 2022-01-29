@@ -4892,6 +4892,22 @@
     ],
     "timestamp": "Jan/14/2022 12:03"
   },
+  "CF144379591": {
+    "contest_id": 1594,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\1594\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Consecutive Sum Riddle",
+    "problem_url": "https://codeforces.com/contest/1594/problem/A",
+    "submission_id": "CF144379591",
+    "submission_url": "https://codeforces.com/contest/1594/submission/144379591",
+    "tags": [
+      "math",
+      "*800"
+    ],
+    "timestamp": "Jan/29/2022 10:51"
+  },
   "CF145404559": {
     "contest_id": 1634,
     "language": "GNU C++17 (64)",
