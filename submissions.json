@@ -4892,6 +4892,23 @@
     ],
     "timestamp": "Jan/14/2022 12:03"
   },
+  "CF145404559": {
+    "contest_id": 1634,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\1634\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Reverse and Concatenate",
+    "problem_url": "https://codeforces.com/contest/1634/problem/A",
+    "submission_id": "CF145404559",
+    "submission_url": "https://codeforces.com/contest/1634/submission/145404559",
+    "tags": [
+      "greedy",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Feb/06/2022 20:47"
+  },
   "CF145453079": {
     "contest_id": 1634,
     "language": "GNU C++17 (64)",
