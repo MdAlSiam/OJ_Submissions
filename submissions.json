@@ -4892,6 +4892,22 @@
     ],
     "timestamp": "Jan/14/2022 12:03"
   },
+  "CF150154083": {
+    "contest_id": 1542,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\1542\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Odd Set",
+    "problem_url": "https://codeforces.com/contest/1542/problem/A",
+    "submission_id": "CF150154083",
+    "submission_url": "https://codeforces.com/contest/1542/submission/150154083",
+    "tags": [
+      "math",
+      "*800"
+    ],
+    "timestamp": "Mar/19/2022 21:53"
+  },
   "CF151226829": {
     "contest_id": 1658,
     "language": "GNU C++17 (64)",
