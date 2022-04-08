@@ -12,8 +12,9 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-835 | [B - Getting Zero](https://codeforces.com/contest/1661/problem/B) | [GNU C++17 (64)](./codeforces/1661/B.cpp) | `bitmasks` `brute force` `dfs and similar` `dp` `graphs` `greedy` `shortest paths` `*1300` | Apr/09/2022 21:33 | 
-834 | [A - Array Balancing](https://codeforces.com/contest/1661/problem/A) | [GNU C++17 (64)](./codeforces/1661/A.cpp) | `greedy` `math` `*800` | Apr/09/2022 20:47 | 
+836 | [B - Getting Zero](https://codeforces.com/contest/1661/problem/B) | [GNU C++17 (64)](./codeforces/1661/B.cpp) | `bitmasks` `brute force` `dfs and similar` `dp` `graphs` `greedy` `shortest paths` `*1300` | Apr/09/2022 21:33 | 
+835 | [A - Array Balancing](https://codeforces.com/contest/1661/problem/A) | [GNU C++17 (64)](./codeforces/1661/A.cpp) | `greedy` `math` `*800` | Apr/09/2022 20:47 | 
+834 | [B - Array Cloning Technique](https://codeforces.com/contest/1665/problem/B) | [GNU C++17 (64)](./codeforces/1665/B.cpp) | `constructive algorithms` `greedy` `sortings` `*900` | Apr/08/2022 21:48 | 
 833 | [A - Distance](https://codeforces.com/contest/1612/problem/A) | [GNU C++17 (64)](./codeforces/1612/A.cpp) | `brute force` `constructive algorithms` `*800` | Jan/14/2022 12:03 | 
 832 | [A - Integer Diversity](https://codeforces.com/contest/1616/problem/A) | [GNU C++17 (64)](./codeforces/1616/A.cpp) | `implementation` `*800` | Jan/05/2022 21:25 | 
 831 | [B - Mirror in the String](https://codeforces.com/contest/1616/problem/B) | [GNU C++17 (64)](./codeforces/1616/B.cpp) | `greedy` `strings` `*1100` | Jan/05/2022 19:58 | 
