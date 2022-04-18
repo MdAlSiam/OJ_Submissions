@@ -6,16 +6,18 @@ Submissions
 
 A repository to keep track of problem solving practice, containing solutions from platforms:
 * Codeforces &nbsp; [![Codeforces](https://run.kaist.ac.kr/badges/codeforces/_siummy.svg)](https://codeforces.com/profile/_siummy)
+* AtCoder &nbsp; [![AtCoder](https://run.kaist.ac.kr/badges/atcoder/Md_Al_Siam.svg)](https://atcoder.jp/users/Md_Al_Siam)
 
 
 ## Contents
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-857 | [C - Make it Increasing](https://codeforces.com/contest/1668/problem/C) | [GNU C++17 (64)](./codeforces/1668/C.cpp) | `greedy` `math` | Apr/19/2022 21:36 | 
-856 | [B - Social Distance](https://codeforces.com/contest/1668/problem/B) | [GNU C++17 (64)](./codeforces/1668/B.cpp) | `greedy` `math` | Apr/19/2022 21:01 | 
-855 | [A - Direction Change](https://codeforces.com/contest/1668/problem/A) | [GNU C++17 (64)](./codeforces/1668/A.cpp) | `math` | Apr/19/2022 20:46 | 
-854 | [D - Deletive Editing](https://codeforces.com/contest/1666/problem/D) | [GNU C++17 (64)](./codeforces/1666/D.cpp) | `greedy` `*900` | Apr/19/2022 11:07 | 
+858 | [C - Make it Increasing](https://codeforces.com/contest/1668/problem/C) | [GNU C++17 (64)](./codeforces/1668/C.cpp) | `greedy` `math` | Apr/19/2022 21:36 | 
+857 | [B - Social Distance](https://codeforces.com/contest/1668/problem/B) | [GNU C++17 (64)](./codeforces/1668/B.cpp) | `greedy` `math` | Apr/19/2022 21:01 | 
+856 | [A - Direction Change](https://codeforces.com/contest/1668/problem/A) | [GNU C++17 (64)](./codeforces/1668/A.cpp) | `math` | Apr/19/2022 20:46 | 
+855 | [D - Deletive Editing](https://codeforces.com/contest/1666/problem/D) | [GNU C++17 (64)](./codeforces/1666/D.cpp) | `greedy` `*900` | Apr/19/2022 11:07 | 
+854 | [B - Iron Bar Cutting](https://atcoder.jp/contests/ddcc2020-qual/tasks/ddcc2020_qual_b) | [C++ (GCC 9.2.1)](./atcoder/ddcc2020-qual/B.cpp) | `AtCoder` `*200` | Apr/18/2022 22:50 | 
 853 | [C - Line Empire](https://codeforces.com/contest/1659/problem/C) | [GNU C++17 (64)](./codeforces/1659/C.cpp) | `binary search` `brute force` `dp` `greedy` `implementation` `math` | Apr/18/2022 13:08 | 
 852 | [B - Bit Flipping](https://codeforces.com/contest/1659/problem/B) | [GNU C++17 (64)](./codeforces/1659/B.cpp) | `bitmasks` `constructive algorithms` `greedy` `strings` | Apr/17/2022 22:39 | 
 851 | [A - Red Versus Blue](https://codeforces.com/contest/1659/problem/A) | [GNU C++17 (64)](./codeforces/1659/A.cpp) | `constructive algorithms` `greedy` `implementation` `math` | Apr/17/2022 21:06 | 
