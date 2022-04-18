@@ -12,10 +12,11 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-854 | [C - Make it Increasing](https://codeforces.com/contest/1668/problem/C) | [GNU C++17 (64)](./codeforces/1668/C.cpp) | `greedy` `math` | Apr/19/2022 21:36 | 
-853 | [B - Social Distance](https://codeforces.com/contest/1668/problem/B) | [GNU C++17 (64)](./codeforces/1668/B.cpp) | `greedy` `math` | Apr/19/2022 21:01 | 
-852 | [A - Direction Change](https://codeforces.com/contest/1668/problem/A) | [GNU C++17 (64)](./codeforces/1668/A.cpp) | `math` | Apr/19/2022 20:46 | 
-851 | [D - Deletive Editing](https://codeforces.com/contest/1666/problem/D) | [GNU C++17 (64)](./codeforces/1666/D.cpp) | `greedy` `*900` | Apr/19/2022 11:07 | 
+855 | [C - Make it Increasing](https://codeforces.com/contest/1668/problem/C) | [GNU C++17 (64)](./codeforces/1668/C.cpp) | `greedy` `math` | Apr/19/2022 21:36 | 
+854 | [B - Social Distance](https://codeforces.com/contest/1668/problem/B) | [GNU C++17 (64)](./codeforces/1668/B.cpp) | `greedy` `math` | Apr/19/2022 21:01 | 
+853 | [A - Direction Change](https://codeforces.com/contest/1668/problem/A) | [GNU C++17 (64)](./codeforces/1668/A.cpp) | `math` | Apr/19/2022 20:46 | 
+852 | [D - Deletive Editing](https://codeforces.com/contest/1666/problem/D) | [GNU C++17 (64)](./codeforces/1666/D.cpp) | `greedy` `*900` | Apr/19/2022 11:07 | 
+851 | [C - Line Empire](https://codeforces.com/contest/1659/problem/C) | [GNU C++17 (64)](./codeforces/1659/C.cpp) | `binary search` `brute force` `dp` `greedy` `implementation` `math` | Apr/18/2022 13:08 | 
 850 | [B - Getting Zero](https://codeforces.com/contest/1661/problem/B) | [GNU C++17 (64)](./codeforces/1661/B.cpp) | `bitmasks` `brute force` `dfs and similar` `dp` `graphs` `greedy` `shortest paths` `*1300` | Apr/09/2022 21:33 | 
 849 | [A - Array Balancing](https://codeforces.com/contest/1661/problem/A) | [GNU C++17 (64)](./codeforces/1661/A.cpp) | `greedy` `math` `*800` | Apr/09/2022 20:47 | 
 848 | [B - Array Cloning Technique](https://codeforces.com/contest/1665/problem/B) | [GNU C++17 (64)](./codeforces/1665/B.cpp) | `constructive algorithms` `greedy` `sortings` `*900` | Apr/08/2022 21:48 | 
