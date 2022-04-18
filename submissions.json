@@ -63,6 +63,22 @@
     ],
     "timestamp": "Dec/05/2020 19:49"
   },
+  "AC31089864": {
+    "contest_id": "exawizards2019",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\exawizards2019\\A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Regular Triangle",
+    "problem_url": "https://atcoder.jp/contests/exawizards2019/tasks/exawizards2019_a",
+    "submission_id": "AC31089864",
+    "submission_url": "https://atcoder.jp/contests/exawizards2019/submissions/31089864",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Apr/18/2022 22:49"
+  },
   "AC31089869": {
     "contest_id": "ddcc2020-qual",
     "language": "C++ (GCC 9.2.1)",
