@@ -5187,6 +5187,22 @@
     ],
     "timestamp": "Apr/09/2022 21:33"
   },
+  "CF154043170": {
+    "contest_id": 1666,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\1666\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Deletive Editing",
+    "problem_url": "https://codeforces.com/contest/1666/problem/D",
+    "submission_id": "CF154043170",
+    "submission_url": "https://codeforces.com/contest/1666/submission/154043170",
+    "tags": [
+      "greedy",
+      "*900"
+    ],
+    "timestamp": "Apr/19/2022 11:07"
+  },
   "CF154081339": {
     "contest_id": 1668,
     "language": "GNU C++17 (64)",
