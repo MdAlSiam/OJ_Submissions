@@ -5187,6 +5187,21 @@
     ],
     "timestamp": "Apr/09/2022 21:33"
   },
+  "CF154081339": {
+    "contest_id": 1668,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\1668\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Direction Change",
+    "problem_url": "https://codeforces.com/contest/1668/problem/A",
+    "submission_id": "CF154081339",
+    "submission_url": "https://codeforces.com/contest/1668/submission/154081339",
+    "tags": [
+      "math"
+    ],
+    "timestamp": "Apr/19/2022 20:46"
+  },
   "CF154089923": {
     "contest_id": 1668,
     "language": "GNU C++17 (64)",
