@@ -13,8 +13,9 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-862 | [B - DIV + MOD](https://codeforces.com/contest/1650/problem/B) | [GNU C++17 (64)](./codeforces/1650/B.cpp) | `math` `*900` | Apr/20/2022 21:16 | 
-861 | [A - Deletions of Two Adjacent Letters](https://codeforces.com/contest/1650/problem/A) | [GNU C++17 (64)](./codeforces/1650/A.cpp) | `implementation` `strings` `*800` | Apr/20/2022 20:07 | 
+863 | [B - DIV + MOD](https://codeforces.com/contest/1650/problem/B) | [GNU C++17 (64)](./codeforces/1650/B.cpp) | `math` `*900` | Apr/20/2022 21:16 | 
+862 | [A - Deletions of Two Adjacent Letters](https://codeforces.com/contest/1650/problem/A) | [GNU C++17 (64)](./codeforces/1650/A.cpp) | `implementation` `strings` `*800` | Apr/20/2022 20:07 | 
+861 | [E - Matrix and Shifts](https://codeforces.com/contest/1660/problem/E) | [GNU C++17 (64)](./codeforces/1660/E.cpp) | `brute force` `constructive algorithms` `greedy` `implementation` `*1600` | Apr/20/2022 14:11 | 
 860 | [C - Make it Increasing](https://codeforces.com/contest/1668/problem/C) | [GNU C++17 (64)](./codeforces/1668/C.cpp) | `greedy` `math` | Apr/19/2022 21:36 | 
 859 | [B - Social Distance](https://codeforces.com/contest/1668/problem/B) | [GNU C++17 (64)](./codeforces/1668/B.cpp) | `greedy` `math` | Apr/19/2022 21:01 | 
 858 | [A - Direction Change](https://codeforces.com/contest/1668/problem/A) | [GNU C++17 (64)](./codeforces/1668/A.cpp) | `math` | Apr/19/2022 20:46 | 
