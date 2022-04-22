@@ -5406,6 +5406,22 @@
     ],
     "timestamp": "Apr/20/2022 21:16"
   },
+  "CF154470085": {
+    "contest_id": 1669,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\1669\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Division?",
+    "problem_url": "https://codeforces.com/contest/1669/problem/A",
+    "submission_id": "CF154470085",
+    "submission_url": "https://codeforces.com/contest/1669/submission/154470085",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Apr/22/2022 12:49"
+  },
   "CF154489100": {
     "contest_id": 1669,
     "language": "GNU C++17 (64)",
