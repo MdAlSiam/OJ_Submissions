@@ -5406,6 +5406,24 @@
     ],
     "timestamp": "Apr/20/2022 21:16"
   },
+  "CF154861609": {
+    "contest_id": 1658,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\1658\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Marin and Anti-coprime Permutation",
+    "problem_url": "https://codeforces.com/contest/1658/problem/B",
+    "submission_id": "CF154861609",
+    "submission_url": "https://codeforces.com/contest/1658/submission/154861609",
+    "tags": [
+      "combinatorics",
+      "math",
+      "number theory",
+      "*800"
+    ],
+    "timestamp": "Apr/24/2022 20:19"
+  },
   "CF154864371": {
     "contest_id": 1651,
     "language": "GNU C++17 (64)",
