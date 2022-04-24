@@ -105,7 +105,7 @@ void solve() {
         }
     }
 
-    // prll(ans, z-z);
+    prll(ans, z-z);
 }
  
 int32_t main() {
