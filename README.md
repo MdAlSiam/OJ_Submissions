@@ -13,10 +13,11 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-867 | [A - Good Pairs](https://codeforces.com/contest/1656/problem/A) | [GNU C++17 (64)](./codeforces/1656/A.cpp) | `math` `sortings` `*800` | Apr/25/2022 23:45 | 
-866 | [B - Subtract Operation](https://codeforces.com/contest/1656/problem/B) | [GNU C++17 (64)](./codeforces/1656/B.cpp) | `data structures` `greedy` `math` `two pointers` `*1100` | Apr/25/2022 23:32 | 
-865 | [A - Integer Moves](https://codeforces.com/contest/1657/problem/A) | [GNU C++17 (64)](./codeforces/1657/A.cpp) | `brute force` `math` `*800` | Apr/25/2022 20:37 | 
-864 | [B - XY Sequence](https://codeforces.com/contest/1657/problem/B) | [GNU C++17 (64)](./codeforces/1657/B.cpp) | `greedy` `*800` | Apr/25/2022 20:10 | 
+868 | [A - Good Pairs](https://codeforces.com/contest/1656/problem/A) | [GNU C++17 (64)](./codeforces/1656/A.cpp) | `math` `sortings` `*800` | Apr/25/2022 23:45 | 
+867 | [B - Subtract Operation](https://codeforces.com/contest/1656/problem/B) | [GNU C++17 (64)](./codeforces/1656/B.cpp) | `data structures` `greedy` `math` `two pointers` `*1100` | Apr/25/2022 23:32 | 
+866 | [A - Integer Moves](https://codeforces.com/contest/1657/problem/A) | [GNU C++17 (64)](./codeforces/1657/A.cpp) | `brute force` `math` `*800` | Apr/25/2022 20:37 | 
+865 | [B - XY Sequence](https://codeforces.com/contest/1657/problem/B) | [GNU C++17 (64)](./codeforces/1657/B.cpp) | `greedy` `*800` | Apr/25/2022 20:10 | 
+864 | [C - Make Equal With Mod](https://codeforces.com/contest/1656/problem/C) | [GNU C++17 (64)](./codeforces/1656/C.cpp) | `constructive algorithms` `math` `number theory` `sortings` `*1200` | Apr/25/2022 18:20 | 
 863 | [B - DIV + MOD](https://codeforces.com/contest/1650/problem/B) | [GNU C++17 (64)](./codeforces/1650/B.cpp) | `math` `*900` | Apr/20/2022 21:16 | 
 862 | [A - Deletions of Two Adjacent Letters](https://codeforces.com/contest/1650/problem/A) | [GNU C++17 (64)](./codeforces/1650/A.cpp) | `implementation` `strings` `*800` | Apr/20/2022 20:07 | 
 861 | [E - Matrix and Shifts](https://codeforces.com/contest/1660/problem/E) | [GNU C++17 (64)](./codeforces/1660/E.cpp) | `brute force` `constructive algorithms` `greedy` `implementation` `*1600` | Apr/20/2022 14:11 | 
