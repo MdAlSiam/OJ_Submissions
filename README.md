@@ -13,7 +13,8 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-886 | [B - Not Sitting](https://codeforces.com/contest/1627/problem/B) | [GNU C++17 (64)](./codeforces/1627/B.cpp) | `games` `greedy` `sortings` `*1300` | Apr/26/2022 23:30 | 
+887 | [B - Not Sitting](https://codeforces.com/contest/1627/problem/B) | [GNU C++17 (64)](./codeforces/1627/B.cpp) | `games` `greedy` `sortings` `*1300` | Apr/26/2022 23:30 | 
+886 | [B - Game of Ball Passing](https://codeforces.com/contest/1649/problem/B) | [GNU C++17 (64)](./codeforces/1649/B.cpp) | `greedy` `implementation` `*1300` | Apr/26/2022 21:34 | 
 885 | [A - Good Pairs](https://codeforces.com/contest/1656/problem/A) | [GNU C++17 (64)](./codeforces/1656/A.cpp) | `math` `sortings` `*800` | Apr/25/2022 23:45 | 
 884 | [B - Subtract Operation](https://codeforces.com/contest/1656/problem/B) | [GNU C++17 (64)](./codeforces/1656/B.cpp) | `data structures` `greedy` `math` `two pointers` `*1100` | Apr/25/2022 23:32 | 
 883 | [A - Integer Moves](https://codeforces.com/contest/1657/problem/A) | [GNU C++17 (64)](./codeforces/1657/A.cpp) | `brute force` `math` `*800` | Apr/25/2022 20:37 | 
