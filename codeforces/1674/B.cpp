@@ -47,7 +47,6 @@ string str;
 bool yes;
 // ll ara[maxn];
 vector<ll> vc;
-map<string, ll> mp;
 
 void solve() {
     cin >> str;
@@ -56,27 +55,6 @@ void solve() {
     if (str[1] < str[0]) ans++;
     prl(ans);
 }
-
-void precalculate() {
-    kount = 0;
-    for (char first = 'a'; first <= 'z'; first++) {
-        for (char second = 'a'; second <= 'z'; second++) {
-            if (first == second) continue;
-
-            kount++;
-            string word = "";
-            word += first;
-            word += second;
-            mp[word] = kount;
-            db cout << word << " " << mp[word] << endl;
-        }
-    }
-}
-
-void solve2() {
-    cin >> str;
-    cout << mp[str] << endl;
-}
  
 int32_t main() {
     // freopen("input.txt", "r", stdin);
@@ -84,8 +62,7 @@ int32_t main() {
     test = 1;
     kase = 0;
     scl(test);
-    precalculate();
-    while (test--) solve2();
+    while (test--) solve();
 }
 
 /*
