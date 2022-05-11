@@ -13,7 +13,8 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-889 | [G - White-Black Balanced Subtrees](https://codeforces.com/contest/1676/problem/G) | [GNU C++17 (64)](./codeforces/1676/G.cpp) | `dfs and similar` `dp` `graphs` `trees` `*1300` | May/12/2022 03:14 | 
+890 | [G - White-Black Balanced Subtrees](https://codeforces.com/contest/1676/problem/G) | [GNU C++17 (64)](./codeforces/1676/G.cpp) | `dfs and similar` `dp` `graphs` `trees` `*1300` | May/12/2022 03:14 | 
+889 | [F - Longest Strike](https://codeforces.com/contest/1676/problem/F) | [GNU C++17 (64)](./codeforces/1676/F.cpp) | `data structures` `greedy` `implementation` `sortings` `two pointers` `*1300` | May/12/2022 02:32 | 
 888 | [E - Divide Both](https://atcoder.jp/contests/abc206/tasks/abc206_e) | [C++ (GCC 9.2.1)](./atcoder/abc206/E.cpp) | `AtCoder` `*500` | Apr/28/2022 11:17 | 
 887 | [B - Not Sitting](https://codeforces.com/contest/1627/problem/B) | [GNU C++17 (64)](./codeforces/1627/B.cpp) | `games` `greedy` `sortings` `*1300` | Apr/26/2022 23:30 | 
 886 | [B - Game of Ball Passing](https://codeforces.com/contest/1649/problem/B) | [GNU C++17 (64)](./codeforces/1649/B.cpp) | `greedy` `implementation` `*1300` | Apr/26/2022 21:34 | 
