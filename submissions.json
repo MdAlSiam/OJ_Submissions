@@ -6042,6 +6042,22 @@
     ],
     "timestamp": "May/12/2022 03:14"
   },
+  "CF158408452": {
+    "contest_id": 8,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\8\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Train and Peter",
+    "problem_url": "https://codeforces.com/contest/8/problem/A",
+    "submission_id": "CF158408452",
+    "submission_url": "https://codeforces.com/contest/8/submission/158408452",
+    "tags": [
+      "strings",
+      "*1200"
+    ],
+    "timestamp": "May/25/2022 22:28"
+  },
   "CF158479601": {
     "contest_id": 11,
     "language": "GNU C++17 (64)",
