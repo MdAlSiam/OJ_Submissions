@@ -6042,6 +6042,23 @@
     ],
     "timestamp": "May/12/2022 03:14"
   },
+  "CF158401639": {
+    "contest_id": 877,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\877\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Alex and broken contest",
+    "problem_url": "https://codeforces.com/contest/877/problem/A",
+    "submission_id": "CF158401639",
+    "submission_url": "https://codeforces.com/contest/877/submission/158401639",
+    "tags": [
+      "implementation",
+      "strings",
+      "*1100"
+    ],
+    "timestamp": "May/25/2022 21:12"
+  },
   "CF158408452": {
     "contest_id": 8,
     "language": "GNU C++17 (64)",

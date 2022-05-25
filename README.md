@@ -13,10 +13,11 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-900 | [B - Jzzhu and Sequences](https://codeforces.com/contest/450/problem/B) | [GNU C++17 (64)](./codeforces/450/B.cpp) | `implementation` `math` `*1300` | May/27/2022 18:48 | 
-899 | [A - I'm bored with life](https://codeforces.com/contest/822/problem/A) | [GNU C++17 (64)](./codeforces/822/A.cpp) | `implementation` `math` `number theory` `*800` | May/26/2022 08:20 | 
-898 | [A - Increasing Sequence](https://codeforces.com/contest/11/problem/A) | [GNU C++17 (64)](./codeforces/11/A.cpp) | `constructive algorithms` `implementation` `math` `*900` | May/26/2022 06:50 | 
-897 | [A - Train and Peter](https://codeforces.com/contest/8/problem/A) | [GNU C++17 (64)](./codeforces/8/A.cpp) | `strings` `*1200` | May/25/2022 22:28 | 
+901 | [B - Jzzhu and Sequences](https://codeforces.com/contest/450/problem/B) | [GNU C++17 (64)](./codeforces/450/B.cpp) | `implementation` `math` `*1300` | May/27/2022 18:48 | 
+900 | [A - I'm bored with life](https://codeforces.com/contest/822/problem/A) | [GNU C++17 (64)](./codeforces/822/A.cpp) | `implementation` `math` `number theory` `*800` | May/26/2022 08:20 | 
+899 | [A - Increasing Sequence](https://codeforces.com/contest/11/problem/A) | [GNU C++17 (64)](./codeforces/11/A.cpp) | `constructive algorithms` `implementation` `math` `*900` | May/26/2022 06:50 | 
+898 | [A - Train and Peter](https://codeforces.com/contest/8/problem/A) | [GNU C++17 (64)](./codeforces/8/A.cpp) | `strings` `*1200` | May/25/2022 22:28 | 
+897 | [A - Alex and broken contest](https://codeforces.com/contest/877/problem/A) | [GNU C++17 (64)](./codeforces/877/A.cpp) | `implementation` `strings` `*1100` | May/25/2022 21:12 | 
 896 | [G - White-Black Balanced Subtrees](https://codeforces.com/contest/1676/problem/G) | [GNU C++17 (64)](./codeforces/1676/G.cpp) | `dfs and similar` `dp` `graphs` `trees` `*1300` | May/12/2022 03:14 | 
 895 | [F - Longest Strike](https://codeforces.com/contest/1676/problem/F) | [GNU C++17 (64)](./codeforces/1676/F.cpp) | `data structures` `greedy` `implementation` `sortings` `two pointers` `*1300` | May/12/2022 02:32 | 
 894 | [E - Eating Queries](https://codeforces.com/contest/1676/problem/E) | [GNU C++17 (64)](./codeforces/1676/E.cpp) | `binary search` `greedy` `sortings` `*1100` | May/12/2022 02:10 | 
