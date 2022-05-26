@@ -65,7 +65,7 @@ void solve() {
         ll times = 0;
         if (prev != -1) {
             if (prev >= t) {
-                times = 1+(prev-t)/k;
+                times = (prev-t+k)/k;
                 ans += times;
             }
         }
